@@ -1,7 +1,8 @@
 @import "../../common.blocks/variables/_variables.scss";
 @import "../../common.blocks/mixins/mixins";
 
-// stylelint-disable selector-no-qualifying-type
+//Переопределяем глобальные переменные
+@import "forms_variables";
 
 //
 // Textual form controls

@@ -1,0 +1,25 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет A */
+/* Вторичный Цвет B */
+@font-face {
+    font-family: "myiconfont";
+  src: url("../fonts/icons/myiconfont.eot");
+  src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
+}
+
+.logo {
+    width: 100%;
+    height: 100px;
+}
+
+.logo path {
+    stroke: #2980b8;
+    fill: #2980b8;
+}
+
+@media (min-width: 768px) {
+    .header {
+        height: 115px;
+    }
+}
