@@ -7,7 +7,7 @@ $icon_font_name:"myiconfont";
 	url('../fonts/icons/myiconfont.ttf') format('truetype'),
 	url('../fonts/icons/myiconfont.svg#myiconfont') format('svg');
 }
-%icon-logo,
+%icon-glyphicons-map-marker,
 %last_selector {
 		&:before {
 			font-family:$icon_font_name;
@@ -49,6 +49,6 @@ $icon_font_name:"myiconfont";
 	}
 }
 
-%icon-logo:before {
+%icon-glyphicons-map-marker:before {
 	content:'\E001';
 }

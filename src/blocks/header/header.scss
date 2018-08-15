@@ -3,19 +3,69 @@
 @import "../../common.blocks/icons/icons";
 
 
+.header{
+
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.header__wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+.header__logo-wrapper{
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__logo{
+  display: flex;
+  justify-content: space-between;
+}
 .logo{
-  width: 100%;
+  width: auto;
   height: 100px;
+  margin-right: 1rem;
   path {
-    stroke: $color-primary-0;
-    fill: $color-primary-0;
+    stroke: $color-secondary-b-0;
+    fill: $color-secondary-b-0;
   }
 }
 
+.header__siteNameWrap{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.header__SiteName{
+  font-size: 1.75rem;
+  font-weight: bold;
+  color: $color-primary-2;
+}
+.header__SiteSubname{
+
+  font-weight: normal;
+  line-height: 1.1;
+  color: $color-primary-1;
+}
+.header__address{
+  display: flex;
+  align-self: center;
+  color: $color-primary-2;
+  font-size: 1.5rem;
+  font-weight: normal;
+
+}
 
 @include media-breakpoint-up(md){
   .header {
-    height: 115px;
+
   }
 
+}
+
+@include media-breakpoint-up(xl){
+  .header__logo-wrapper{
+    max-width: 350px;
+  }
 }

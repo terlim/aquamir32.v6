@@ -8,18 +8,98 @@
   src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
 }
 
+.header {
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.header__wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header__logo-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
+.header__logo {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+
 .logo {
-    width: 100%;
+    width: auto;
     height: 100px;
+    margin-right: 1rem;
 }
 
 .logo path {
-    stroke: #2980b8;
-    fill: #2980b8;
+    stroke: #ff622c;
+    fill: #ff622c;
 }
 
-@media (min-width: 768px) {
-    .header {
-        height: 115px;
+.header__siteNameWrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.header__SiteName {
+    font-size: 1.75rem;
+    font-weight: bold;
+    color: #0d4e78;
+}
+
+.header__SiteSubname {
+    font-weight: normal;
+    line-height: 1.1;
+    color: #3a6a8a;
+}
+
+.header__address {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    color: #0d4e78;
+    font-size: 1.5rem;
+    font-weight: normal;
+}
+
+@media (min-width: 1200px) {
+    .header__logo-wrapper {
+        max-width: 350px;
     }
 }
