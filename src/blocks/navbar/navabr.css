@@ -12,14 +12,6 @@
     background-color: #297FB8;
 }
 
-.navbar--theme-color .active {
-    color: #ffb739 !important;
-}
-
-.navbar--theme-color .nav-item {
-    color: #8da4b5;
-}
-
 .navbar--theme-color .navbar-offcanvas {
     padding: 0;
 }
@@ -32,6 +24,27 @@
     .navbar--theme-color .navbar-offcanvas {
         overflow: inherit !important;
     }
+}
+
+.navbar--theme-color .active:before {
+    background: #ffd661;
+    bottom: 7px;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: all .2s linear;
+    -o-transition: all .2s linear;
+    transition: all .2s linear;
+    width: 100%;
 }
 
 .navbar-fix {
@@ -115,6 +128,7 @@
 }
 
 .nav-item {
+    position: relative;
     -webkit-transition: .3s linear;
     -o-transition: .3s linear;
     transition: .3s linear;
@@ -123,11 +137,57 @@
     align-self: stretch;
 }
 
+.nav-item:before {
+    background: #ffd661;
+    bottom: 7px;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
+.nav-item:hover:before {
+    background: #ffd661;
+    bottom: 7px;
+    content: "";
+    display: block;
+    height: 3px;
+    left: 0;
+    opacity: 1;
+    position: absolute;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1);
+    -webkit-transform-origin: 50% 50%;
+    -ms-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+    -webkit-transition: all .2s ease-out;
+    -o-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    width: 100%;
+}
+
 .nav-link {
     display: block;
-    color: inherit;
+    color: #ffffff;
     padding: .84rem;
-    border-bottom: 2px solid #ff9a0a;
+    font-size: 1rem;
+}
+
+.nav-link:hover {
+    color: #ffffff;
 }
 
 .dropdown {

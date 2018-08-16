@@ -178,6 +178,7 @@
 
     .logo {
         height: 85px;
+        margin-right: .5rem;
     }
 
     .header__SiteName {
@@ -213,6 +214,7 @@
     .logo {
         width: auto;
         height: 85px;
+        margin-right: .8rem;
     }
 
     .header__SiteName {
@@ -249,6 +251,7 @@
     .logo {
         width: auto;
         height: 85px;
+        margin-right: 1rem;
     }
 
     .header__SiteName {
@@ -285,6 +288,7 @@
     .logo {
         width: auto;
         height: 95px;
+        margin-right: 1rem;
     }
 
     .header__SiteName {

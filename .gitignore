@@ -3,3 +3,4 @@
 node_modules/*
 bower-components/*
 build
+package-lock.json
