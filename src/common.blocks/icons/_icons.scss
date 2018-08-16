@@ -7,6 +7,8 @@ $icon_font_name:"myiconfont";
 	url('../fonts/icons/myiconfont.ttf') format('truetype'),
 	url('../fonts/icons/myiconfont.svg#myiconfont') format('svg');
 }
+%icon-glyphicons-auricular-phone-symbol-in-a-circle,
+%icon-glyphicons-clock,
 %icon-glyphicons-map-marker,
 %last_selector {
 		&:before {
@@ -49,6 +51,12 @@ $icon_font_name:"myiconfont";
 	}
 }
 
-%icon-glyphicons-map-marker:before {
+%icon-glyphicons-auricular-phone-symbol-in-a-circle:before {
 	content:'\E001';
+}
+%icon-glyphicons-clock:before {
+	content:'\E002';
+}
+%icon-glyphicons-map-marker:before {
+	content:'\E003';
 }

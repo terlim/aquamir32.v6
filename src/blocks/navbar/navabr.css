@@ -1,0 +1,207 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет A */
+/* Вторичный Цвет B */
+@font-face {
+    font-family: "myiconfont";
+  src: url("../fonts/icons/myiconfont.eot");
+  src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
+}
+
+.navbar--theme-color {
+    background-color: #297FB8;
+}
+
+.navbar--theme-color .active {
+    color: #ffb739 !important;
+}
+
+.navbar--theme-color .nav-item {
+    color: #8da4b5;
+}
+
+.navbar--theme-color .navbar-offcanvas {
+    padding: 0;
+}
+
+.navbar--theme-color .navbar-offcanvas {
+    overflow: auto;
+}
+
+@media (min-width: 768px) {
+    .navbar--theme-color .navbar-offcanvas {
+        overflow: inherit !important;
+    }
+}
+
+.navbar-fix {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 0;
+    -ms-flex: 0 0 0px;
+    flex: 0 0 0;
+    max-width: 0;
+}
+
+.navbar {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin-bottom: 1rem;
+}
+
+.navbar-toggle {
+    color: #8da4b5;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 9px 10px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    -webkit-border-radius: .25rem;
+    border-radius: .25rem;
+}
+
+@media (min-width: 768px) {
+    .navbar-toggle {
+        display: none;
+    }
+}
+
+.icon-bar {
+    display: block;
+    width: 22px;
+    height: 3px;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    -webkit-border-radius: 1px;
+    border-radius: 1px;
+    background: #fff !important;
+}
+
+.navbar-nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    padding-left: 0;
+    list-style: none;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0;
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        -webkit-box-orient: horizontal;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+        flex-direction: row;
+    }
+}
+
+.nav-item {
+    -webkit-transition: .3s linear;
+    -o-transition: .3s linear;
+    transition: .3s linear;
+    -webkit-align-self: stretch;
+    -ms-flex-item-align: stretch;
+    align-self: stretch;
+}
+
+.nav-link {
+    display: block;
+    color: inherit;
+    padding: .84rem;
+    border-bottom: 2px solid #ff9a0a;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-toggler:after {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: .255em;
+    vertical-align: .255em;
+    content: "";
+    border-top: .3em solid;
+    border-right: .3em solid transparent;
+    border-bottom: 0;
+    border-left: .3em solid transparent;
+}
+
+.dropdown-menu {
+    position: static !important;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 10rem;
+    padding: .5rem 0;
+    margin: 0;
+    font-size: 1rem;
+    color: #000;
+    text-align: left;
+    list-style: none;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    -webkit-border-radius: 0;
+    border-radius: 0;
+}
+
+.dropdown-menu.show {
+    display: block;
+}
+
+@media (min-width: 768px) {
+    .dropdown-menu {
+        position: absolute !important;
+        margin: .125rem 0 0;
+        -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.4);
+        -webkit-border-radius: .25rem;
+        border-radius: .25rem;
+        border: 0;
+    }
+}
+
+.dropdown-item {
+    padding: .9rem 1.5rem;
+    display: block;
+    width: 100%;
+    clear: both;
+    font-weight: 400;
+    color: #212529;
+    text-align: inherit;
+    white-space: nowrap;
+    background-color: transparent;
+    border: 0;
+}
+
+.dropdown-item:hover {
+    color: #16181b;
+    text-decoration: none;
+    background-color: #1b294612;
+}

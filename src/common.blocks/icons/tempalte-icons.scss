@@ -1,5 +1,19 @@
 @import "icons";
 .icon__address-marker{
   @extend %icon-glyphicons-map-marker;
+  padding-right: .5rem;
 
+  &:before{
+    font-weight: bold;
+  }
+
+}
+.icon__tel{
+  @extend %icon-glyphicons-auricular-phone-symbol-in-a-circle;
+  padding-right: .5rem;
+}
+
+.icon__worTime{
+  @extend %icon-glyphicons-clock;
+  padding-right: .5rem;
 }

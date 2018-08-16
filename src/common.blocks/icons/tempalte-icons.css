@@ -4,6 +4,8 @@
     src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
 }
 
+.icon__tel:before,
+.icon__worTime:before,
 .icon__address-marker:before {
     font-family: "myiconfont";
     -webkit-font-smoothing: antialiased;
@@ -15,6 +17,30 @@
     text-transform: none;
 }
 
-.icon__address-marker:before {
+.icon__tel:before {
     content: '\E001';
+}
+
+.icon__worTime:before {
+    content: '\E002';
+}
+
+.icon__address-marker:before {
+    content: '\E003';
+}
+
+.icon__address-marker {
+    padding-right: .5rem;
+}
+
+.icon__address-marker:before {
+    font-weight: bold;
+}
+
+.icon__tel {
+    padding-right: .5rem;
+}
+
+.icon__worTime {
+    padding-right: .5rem;
 }

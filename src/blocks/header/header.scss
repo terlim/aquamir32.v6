@@ -4,16 +4,16 @@
 
 
 .header{
-
-  margin-top: 10px;
+  margin-top: 5px;
   margin-bottom: 30px;
 }
+
 .header__wrapper{
   display: flex;
   justify-content: space-between;
 }
 .header__logo-wrapper{
-
+  max-width: 160px;
   display: flex;
   justify-content: space-between;
 }
@@ -24,8 +24,8 @@
 }
 .logo{
   width: auto;
-  height: 100px;
-  margin-right: 1rem;
+  height: 65px;
+  margin-right: .3rem;
   path {
     stroke: $color-secondary-b-0;
     fill: $color-secondary-b-0;
@@ -38,34 +38,185 @@
   justify-content: center;
 }
 .header__SiteName{
-  font-size: 1.75rem;
+  font-size: .9rem;
   font-weight: bold;
   color: $color-primary-2;
 }
 .header__SiteSubname{
-
+  font-size: .65rem;
   font-weight: normal;
   line-height: 1.1;
   color: $color-primary-1;
 }
 .header__address{
-  display: flex;
+  display: none;
   align-self: center;
   color: $color-primary-2;
   font-size: 1.5rem;
   font-weight: normal;
 
 }
+.header__phones{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
 
+}
+.header__phone-wrapper{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .icon__tel{
+    display: none;
+    color: $color-primary-2;
+    font-size: .9rem;
+  }
+}
+.header__tel{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: .9rem;
+  color: $color-primary-2;
+  a{
+    color: inherit;
+  }
+}
+.header__workTime{
+  display: none;
+  color: $color-secondary-a-1;
+  font-size: .87rem;
+}
+@include media-breakpoint-up(sm){
+
+  .header{
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .header__logo-wrapper{
+    max-width: 290px;
+  }
+
+  .logo{
+    height: 85px;
+  }
+
+  .header__SiteName{
+    font-size: 1.3rem;
+  }
+  .header__SiteSubname{
+    font-size: 1rem;
+  }
+  .header__address{
+    display: none;
+  }
+  .header__phone-wrapper{
+    .icon__tel{
+      font-size: 1.3rem;
+    }
+  }
+  .header__tel{
+    font-size: 1.3rem;
+  }
+  .header__workTime{
+    display: none;
+  }
+}
 @include media-breakpoint-up(md){
-  .header {
+  .header__logo-wrapper{
+    max-width: 290px;
+  }
+  .logo {
+    width: auto;
+    height: 85px;
+  }
+  .header__SiteName{
+    font-size: 1.5rem;
+  }
+  .header__SiteSubname{
+    font-size: 1rem;
+  }
+  .header__address{
+    display: none;
+  }
+  .header__phone-wrapper{
+    .icon__tel{
+      display: inline;
+      font-size: 1.2rem;
+    }
+  }
+  .header__tel{
+    font-size: 1.2rem;
+  }
+  .header__workTime{
+    font-size: .7rem;
+  }
 
+}
+
+@include media-breakpoint-up(lg){
+  .header__logo-wrapper{
+    max-width: 290px;
+  }
+  .logo {
+    width: auto;
+    height: 85px;
+  }
+  .header__SiteName{
+    font-size: 1.5rem;
+  }
+  .header__SiteSubname{
+    font-size: 1rem;
+  }
+  .header__address{
+    display: flex;
+    font-size: 1.3rem;
+  }
+  .header__phone-wrapper{
+    .icon__tel{
+      font-size: 1.2rem;
+    }
+  }
+  .header__tel{
+    font-size: 1.2rem;
+  }
+  .header__workTime{
+    display: block;
+    font-size: .7rem;
   }
 
 }
 
 @include media-breakpoint-up(xl){
+  .logo {
+    width: auto;
+    height: 95px;
+  }
+  .header__SiteName{
+    font-size: 1.75rem;
+  }
+  .header__SiteSubname{
+    font-size: inherit;
+  }
   .header__logo-wrapper{
     max-width: 350px;
+  }
+  .header__address{
+    display: flex;
+    font-size: 1.5rem;
+  }
+
+  .header__phone-wrapper{
+    .icon__tel{
+      font-size: 1.3rem;
+    }
+  }
+  .header__tel{
+    font-size: 1.3rem;
+  }
+  .header__workTime{
+    font-size: .87rem;
   }
 }
