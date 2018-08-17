@@ -9,7 +9,9 @@ $icon_font_name:"myiconfont";
 }
 %icon-glyphicons-auricular-phone-symbol-in-a-circle,
 %icon-glyphicons-clock,
+%icon-glyphicons-commerce,
 %icon-glyphicons-map-marker,
+%icon-glyphicons-search,
 %last_selector {
 		&:before {
 			font-family:$icon_font_name;
@@ -57,6 +59,12 @@ $icon_font_name:"myiconfont";
 %icon-glyphicons-clock:before {
 	content:'\E002';
 }
-%icon-glyphicons-map-marker:before {
+%icon-glyphicons-commerce:before {
 	content:'\E003';
+}
+%icon-glyphicons-map-marker:before {
+	content:'\E004';
+}
+%icon-glyphicons-search:before {
+	content:'\E005';
 }

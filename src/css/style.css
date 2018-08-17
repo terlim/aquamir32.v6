@@ -7,3 +7,5 @@
 @import "../blocks/header/header.css";
 @import "../blocks/navbar/navabr.css";
 @import "../../bower_components/bootstrap-offcanvas/dist/css/bootstrap.offcanvas.css";
+@import "../blocks/search/search.css";
+@import "../blocks/cart/cart.css";

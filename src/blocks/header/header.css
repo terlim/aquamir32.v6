@@ -10,7 +10,7 @@
 
 .header {
     margin-top: 5px;
-    margin-bottom: 30px;
+    margin-bottom: 1rem;
 }
 
 .header__wrapper {
@@ -169,7 +169,7 @@
 @media (min-width: 576px) {
     .header {
         margin-top: 10px;
-        margin-bottom: 30px;
+        margin-bottom: 1rem;
     }
 
     .header__logo-wrapper {

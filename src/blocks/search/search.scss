@@ -1,0 +1,51 @@
+@import "../../common.blocks/variables/variables";
+@import "../../common.blocks/mixins/mixins";
+@import "../../common.blocks/icons/icons";
+.search-wrap{
+
+}
+.search-form{
+    background-color: $color-secondary-a-0;
+    height: 100%;
+    display: flex;
+    align-items: stretch;
+    
+    margin-right: 15px;
+    @include media-breakpoint-up(md){
+        margin: inherit;
+    }
+
+}
+.search-input {
+    margin: .7rem 0 .7rem 1rem;
+    border-radius: 0;
+    width: 100%;
+
+    padding: 0 .75rem;
+    border: 0 solid transparent;
+    font-size: 1rem;
+
+    @include media-breakpoint-up(lg){
+        width: 55%;
+    }
+    @include media-breakpoint-up(xl){
+        width: 80%;
+    }
+
+}
+
+.btn-search {
+    padding: .375rem .75rem;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    user-select: none;
+    border: 0 solid transparent;
+    align-self: center;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+
+    &:hover {
+         color: #212529;
+    }
+}

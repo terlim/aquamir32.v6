@@ -1,0 +1,76 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет A */
+/* Вторичный Цвет B */
+@font-face {
+    font-family: "myiconfont";
+  src: url("../fonts/icons/myiconfont.eot");
+  src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
+}
+
+.search-form {
+    background-color: #ffc82c;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: stretch;
+    -webkit-align-items: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    margin-right: 15px;
+}
+
+@media (min-width: 768px) {
+    .search-form {
+        margin: inherit;
+    }
+}
+
+.search-input {
+    margin: .7rem 0 .7rem 1rem;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    width: 100%;
+    padding: 0 .75rem;
+    border: 0 solid transparent;
+    font-size: 1rem;
+}
+
+@media (min-width: 992px) {
+    .search-input {
+        width: 55%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .search-input {
+        width: 80%;
+    }
+}
+
+.btn-search {
+    padding: .375rem .75rem;
+    background-color: transparent;
+    display: inline-block;
+    cursor: pointer;
+    color: #fff;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 0 solid transparent;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
+    -webkit-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+    -o-transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out,-webkit-box-shadow .15s ease-in-out;
+}
+
+.btn-search:hover {
+    color: #212529;
+}

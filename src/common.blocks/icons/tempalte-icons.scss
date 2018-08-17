@@ -1,4 +1,5 @@
 @import "icons";
+@import "../../common.blocks/variables/variables";
 .icon__address-marker{
   @extend %icon-glyphicons-map-marker;
   padding-right: .5rem;
@@ -16,4 +17,15 @@
 .icon__worTime{
   @extend %icon-glyphicons-clock;
   padding-right: .5rem;
+}
+.icon__search{
+  @extend %icon-glyphicons-search;
+  padding-right: .5rem;
+}
+.icon__cart{
+  @extend %icon-glyphicons-commerce;
+  font-size: 1.8em;
+
+  height: 47px;
+  color: $white;
 }

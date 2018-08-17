@@ -1,12 +1,16 @@
+@charset "UTF-8";
+
 @font-face {
     font-family: "myiconfont";
-    src: url("../fonts/icons/myiconfont.eot");
-    src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
+  src: url("../fonts/icons/myiconfont.eot");
+  src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
 }
 
 .icon__tel:before,
 .icon__worTime:before,
-.icon__address-marker:before {
+.icon__cart:before,
+.icon__address-marker:before,
+.icon__search:before {
     font-family: "myiconfont";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -25,10 +29,21 @@
     content: '\E002';
 }
 
-.icon__address-marker:before {
+.icon__cart:before {
     content: '\E003';
 }
 
+.icon__address-marker:before {
+    content: '\E004';
+}
+
+.icon__search:before {
+    content: '\E005';
+}
+
+/* Основной Цвет */
+/* Вторичный Цвет A */
+/* Вторичный Цвет B */
 .icon__address-marker {
     padding-right: .5rem;
 }
@@ -43,4 +58,14 @@
 
 .icon__worTime {
     padding-right: .5rem;
+}
+
+.icon__search {
+    padding-right: .5rem;
+}
+
+.icon__cart {
+    font-size: 1.8em;
+    height: 47px;
+    color: #ffffff;
 }

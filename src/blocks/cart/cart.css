@@ -1,0 +1,134 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет A */
+/* Вторичный Цвет B */
+@import url(cart-hover/cart-hover.css);
+
+@font-face {
+    font-family: "myiconfont";
+  src: url("../fonts/icons/myiconfont.eot");
+  src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
+}
+
+@-webkit-keyframes slideme {
+    0% {
+        left: -30px;
+        margin-left: 0px;
+    }
+
+    3% {
+        left: 110%;
+        margin-left: 80px;
+    }
+
+    100% {
+        left: 110%;
+        margin-left: 80px;
+    }
+}
+
+@keyframes slideme {
+    0% {
+        left: -30px;
+        margin-left: 0px;
+    }
+
+    3% {
+        left: 110%;
+        margin-left: 80px;
+    }
+
+    100% {
+        left: 110%;
+        margin-left: 80px;
+    }
+}
+
+.cart-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    overflow: hidden;
+    position: relative;
+    background: #ff622c;
+    color: #ffc82c !important;
+}
+
+.cart-wrapper-flash:before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 1;
+    -webkit-box-shadow: 0 0 20px 9px #fff;
+    box-shadow: 0 0 20px 9px #fff;
+}
+
+.cart-wrapper-flash:after {
+    content: "";
+    display: block;
+    width: 5px;
+    height: 250%;
+    margin-left: 60px;
+    background: #f7f2f2;
+    position: absolute;
+    left: -150px;
+    top: -35px;
+    z-index: 1;
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    transform: rotate(35deg);
+    -webkit-animation-name: slideme;
+    animation-name: slideme;
+    -webkit-animation-duration: 20s;
+    animation-duration: 20s;
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: infinite;
+    animation-iteration-count: infinite;
+    -webkit-box-shadow: 0 0 20px 9px #fff;
+    box-shadow: 0 0 20px 9px #fff;
+}
+
+.cart {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    text-align: right;
+    height: 100%;
+    width: 100%;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.cart__value {
+    font-size: 1rem;
+}
+
+.cart__price {
+    font-size: 1rem;
+}
+
+.cart__valueWrapper {
+    padding: 0 .5em;
+    line-height: 1.1;
+}
