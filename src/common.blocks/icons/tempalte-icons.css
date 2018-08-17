@@ -11,7 +11,9 @@
 .icon__worTime:before,
 .icon__cart:before,
 .icon__address-marker:before,
-.icon__search:before {
+.icon__search:before,
+.icon__smesitely:before,
+.icon__truby:before {
     font-family: "myiconfont";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -46,6 +48,14 @@
     content: '\E006';
 }
 
+.icon__smesitely:before {
+    content: '\E007';
+}
+
+.icon__truby:before {
+    content: '\E008';
+}
+
 /* Основной Цвет */
 /* Вторичный Цвет A */
 /* Вторичный Цвет B */
@@ -77,4 +87,20 @@
 
 .icon__catalog {
     padding-right: .5rem;
+}
+
+.icon__catalog:before {
+    font-weight: 800;
+    position: relative;
+    top: 2px;
+}
+
+.icon__truby {
+    padding-right: .5rem;
+    font-size: 1.75rem;
+}
+
+.icon__smesitely {
+    padding-right: .5rem;
+    font-size: 1.75rem;
 }

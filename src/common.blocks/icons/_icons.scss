@@ -13,6 +13,8 @@ $icon_font_name:"myiconfont";
 %icon-glyphicons-commerce,
 %icon-glyphicons-map-marker,
 %icon-glyphicons-search,
+%icon-glyphicons-smesiteli,
+%icon-glyphicons-truby,
 %last_selector {
 		&:before {
 			font-family:$icon_font_name;
@@ -71,4 +73,10 @@ $icon_font_name:"myiconfont";
 }
 %icon-glyphicons-search:before {
 	content:'\E006';
+}
+%icon-glyphicons-smesiteli:before {
+	content:'\E007';
+}
+%icon-glyphicons-truby:before {
+	content:'\E008';
 }

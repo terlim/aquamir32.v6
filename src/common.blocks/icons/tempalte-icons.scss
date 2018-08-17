@@ -32,4 +32,22 @@
 .icon__catalog{
   @extend %icon-glyphicons-catalog;
   padding-right: .5rem;
+  &:before{
+    font-weight: 800;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.icon__truby{
+  @extend %icon-glyphicons-truby;
+  padding-right: .5rem;
+
+  font-size: 1.75rem;
+}
+.icon__smesitely{
+  @extend %icon-glyphicons-smesiteli;
+  padding-right: .5rem;
+
+  font-size: 1.75rem;
 }
