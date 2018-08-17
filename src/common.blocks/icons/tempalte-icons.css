@@ -7,6 +7,7 @@
 }
 
 .icon__tel:before,
+.icon__catalog:before,
 .icon__worTime:before,
 .icon__cart:before,
 .icon__address-marker:before,
@@ -25,20 +26,24 @@
     content: '\E001';
 }
 
-.icon__worTime:before {
+.icon__catalog:before {
     content: '\E002';
 }
 
-.icon__cart:before {
+.icon__worTime:before {
     content: '\E003';
 }
 
-.icon__address-marker:before {
+.icon__cart:before {
     content: '\E004';
 }
 
-.icon__search:before {
+.icon__address-marker:before {
     content: '\E005';
+}
+
+.icon__search:before {
+    content: '\E006';
 }
 
 /* Основной Цвет */
@@ -68,4 +73,8 @@
     font-size: 1.8em;
     height: 47px;
     color: #ffffff;
+}
+
+.icon__catalog {
+    padding-right: .5rem;
 }
