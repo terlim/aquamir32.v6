@@ -62,6 +62,7 @@
     list-style-type: none;
     border-bottom: 1px solid #efefef;
     font-size: .9rem;
+    transition: all .25s ease-in-out;
     &:hover{
          background-color: #7a839326;
      }
