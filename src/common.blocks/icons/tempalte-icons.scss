@@ -41,8 +41,8 @@
   }
 }
 
-.icon__truby{
-  @extend %icon-glyphicons-truby;
+.icon__tapbuks{
+  @extend %icon-glyphicons-tapbuks;
   padding-right: 5px;
   padding-left: 5px;
 
@@ -170,6 +170,27 @@
 }
 .icon__polypropilen{
   @extend %icon-glyphicons-polypropilen;
+  padding-right: 5px;
+  padding-left: 5px;
+
+  font-size: 1.5rem;
+}
+.icon__tube{
+  @extend %icon-glyphicons-tube;
+  padding-right: 5px;
+  padding-left: 5px;
+
+  font-size: 1.5rem;
+}
+.icon__polyetilen{
+  @extend %icon-glyphicons-polyetilen;
+  padding-right: 5px;
+  padding-left: 5px;
+
+  font-size: 1.5rem;
+}
+.icon__komplekt{
+  @extend %icon-glyphicons-komplekt;
   padding-right: 5px;
   padding-left: 5px;
 
