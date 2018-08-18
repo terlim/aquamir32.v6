@@ -195,7 +195,8 @@ gulp.task('iconfont:build', function(){
             fontHeight: 1001
 
         }))
-        .pipe(gulp.dest('src/fonts/icons'));
+        .pipe(gulp.dest('src/fonts/icons'))
+
 });
 
 

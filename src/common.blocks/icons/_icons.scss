@@ -11,10 +11,27 @@ $icon_font_name:"myiconfont";
 %icon-glyphicons-catalog,
 %icon-glyphicons-clock,
 %icon-glyphicons-commerce,
+%icon-glyphicons-garden,
+%icon-glyphicons-kanalizaciya,
+%icon-glyphicons-latun,
+%icon-glyphicons-light,
 %icon-glyphicons-map-marker,
+%icon-glyphicons-matall,
+%icon-glyphicons-meters,
+%icon-glyphicons-podvodka,
+%icon-glyphicons-polotencesushiteli,
+%icon-glyphicons-polypropilen,
+%icon-glyphicons-pump,
+%icon-glyphicons-radiatoryi,
+%icon-glyphicons-sale,
 %icon-glyphicons-search,
 %icon-glyphicons-smesiteli,
+%icon-glyphicons-still,
+%icon-glyphicons-teploizolyaciya,
+%icon-glyphicons-tools,
 %icon-glyphicons-truby,
+%icon-glyphicons-water-filter,
+%icon-glyphicons-water-heater,
 %last_selector {
 		&:before {
 			font-family:$icon_font_name;
@@ -68,15 +85,66 @@ $icon_font_name:"myiconfont";
 %icon-glyphicons-commerce:before {
 	content:'\E004';
 }
-%icon-glyphicons-map-marker:before {
+%icon-glyphicons-garden:before {
 	content:'\E005';
 }
-%icon-glyphicons-search:before {
+%icon-glyphicons-kanalizaciya:before {
 	content:'\E006';
 }
-%icon-glyphicons-smesiteli:before {
+%icon-glyphicons-latun:before {
 	content:'\E007';
 }
-%icon-glyphicons-truby:before {
+%icon-glyphicons-light:before {
 	content:'\E008';
+}
+%icon-glyphicons-map-marker:before {
+	content:'\E009';
+}
+%icon-glyphicons-matall:before {
+	content:'\E00A';
+}
+%icon-glyphicons-meters:before {
+	content:'\E00B';
+}
+%icon-glyphicons-podvodka:before {
+	content:'\E00C';
+}
+%icon-glyphicons-polotencesushiteli:before {
+	content:'\E00D';
+}
+%icon-glyphicons-polypropilen:before {
+	content:'\E00E';
+}
+%icon-glyphicons-pump:before {
+	content:'\E00F';
+}
+%icon-glyphicons-radiatoryi:before {
+	content:'\E010';
+}
+%icon-glyphicons-sale:before {
+	content:'\E011';
+}
+%icon-glyphicons-search:before {
+	content:'\E012';
+}
+%icon-glyphicons-smesiteli:before {
+	content:'\E013';
+}
+%icon-glyphicons-still:before {
+	content:'\E014';
+}
+%icon-glyphicons-teploizolyaciya:before {
+	content:'\E015';
+}
+%icon-glyphicons-tools:before {
+	content:'\E016';
+}
+%icon-glyphicons-truby:before {
+	content:'\E017';
+}
+%icon-glyphicons-water-filter:before {
+	content:'\E018';
+}
+%icon-glyphicons-water-heater:before {
+	content:'\E019';
 }

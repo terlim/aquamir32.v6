@@ -10,10 +10,27 @@
 .icon__catalog:before,
 .icon__worTime:before,
 .icon__cart:before,
+.icon__garden:before,
+.icon__kanalizaciya:before,
+.icon__latun:before,
+.icon__light:before,
 .icon__address-marker:before,
+.icon__metalloplastik:before,
+.icon__meters:before,
+.icon__podvodka:before,
+.icon__polotencesushiteli:before,
+.icon__polypropilen:before,
+.icon__pumps:before,
+.icon__radiatory:before,
+.icon__sale:before,
 .icon__search:before,
 .icon__smesitely:before,
-.icon__truby:before {
+.icon__still:before,
+.icon__teploizolyciya:before,
+.icon__tools:before,
+.icon__truby:before,
+.icon__water-filter:before,
+.icon__water-heater:before {
     font-family: "myiconfont";
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
@@ -40,20 +57,88 @@
     content: '\E004';
 }
 
-.icon__address-marker:before {
+.icon__garden:before {
     content: '\E005';
 }
 
-.icon__search:before {
+.icon__kanalizaciya:before {
     content: '\E006';
 }
 
-.icon__smesitely:before {
+.icon__latun:before {
     content: '\E007';
 }
 
-.icon__truby:before {
+.icon__light:before {
     content: '\E008';
+}
+
+.icon__address-marker:before {
+    content: '\E009';
+}
+
+.icon__metalloplastik:before {
+    content: '\E00A';
+}
+
+.icon__meters:before {
+    content: '\E00B';
+}
+
+.icon__podvodka:before {
+    content: '\E00C';
+}
+
+.icon__polotencesushiteli:before {
+    content: '\E00D';
+}
+
+.icon__polypropilen:before {
+    content: '\E00E';
+}
+
+.icon__pumps:before {
+    content: '\E00F';
+}
+
+.icon__radiatory:before {
+    content: '\E010';
+}
+
+.icon__sale:before {
+    content: '\E011';
+}
+
+.icon__search:before {
+    content: '\E012';
+}
+
+.icon__smesitely:before {
+    content: '\E013';
+}
+
+.icon__still:before {
+    content: '\E014';
+}
+
+.icon__teploizolyciya:before {
+    content: '\E015';
+}
+
+.icon__tools:before {
+    content: '\E016';
+}
+
+.icon__truby:before {
+    content: '\E017';
+}
+
+.icon__water-filter:before {
+    content: '\E018';
+}
+
+.icon__water-heater:before {
+    content: '\E019';
 }
 
 /* Основной Цвет */
@@ -101,6 +186,108 @@
 }
 
 .icon__smesitely {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__radiatory {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__polotencesushiteli {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__teploizolyciya {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__sale {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__podvodka {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__kanalizaciya {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__water-heater {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__latun {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__still {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__light {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__tools {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__meters {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__pumps {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__garden {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__water-filter {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__metalloplastik {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1.5rem;
+}
+
+.icon__polypropilen {
     padding-right: 5px;
     padding-left: 5px;
     font-size: 1.5rem;

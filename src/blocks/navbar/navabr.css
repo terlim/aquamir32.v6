@@ -28,7 +28,7 @@
 
 .navbar--theme-color .active:before {
     background: #ffd661;
-    bottom: 7px;
+    top: 41px;
     content: "";
     display: block;
     height: 3px;
@@ -150,7 +150,7 @@
 
 .nav-item:before {
     background: #ffd661;
-    bottom: 7px;
+    top: 41px;
     content: "";
     display: block;
     height: 3px;
