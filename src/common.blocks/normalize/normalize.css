@@ -59,6 +59,30 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: 0.5rem;
 }
 
+h1 {
+    font-size: 1.51316rem;
+    color: #0d4e78;
+    font-weight: 500;
+}
+
+@media (min-width: 576px) {
+    h1 {
+        font-size: 1.74242rem;
+    }
+}
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 1.91667rem;
+    }
+}
+
+@media (min-width: 992px) {
+    h1 {
+        font-size: 2.12963rem;
+    }
+}
+
 p {
     margin-top: 0;
     margin-bottom: 1rem;
@@ -164,6 +188,11 @@ a:not([href]):not([tabindex]):focus {
 img {
     vertical-align: middle;
     border-style: none;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
 }
 
 svg {

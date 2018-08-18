@@ -84,6 +84,21 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 0;
   margin-bottom: $headings-margin-bottom;
 }
+h1{
+  font-size: $h1-font-size/1.9;
+  color: $color-primary-2;
+  font-weight: 500;
+
+  @include media-breakpoint-up(sm){
+    font-size: $h1-font-size/1.65;
+  }
+  @include media-breakpoint-up(md){
+     font-size: $h1-font-size/1.5;
+  }
+  @include media-breakpoint-up(lg){
+    font-size: $h1-font-size/1.35;
+  }
+}
 // stylelint-enable selector-list-comma-newline-after
 
 // Reset margins on paragraphs
@@ -218,6 +233,10 @@ a:not([href]):not([tabindex]) {
 img {
   vertical-align: middle;
   border-style: none; // Remove the border on images inside links in IE 10-.
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
 }
 
 svg {

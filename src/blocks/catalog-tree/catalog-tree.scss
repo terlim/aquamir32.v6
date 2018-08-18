@@ -69,7 +69,7 @@
     }
 }
 .catalog-tree__link:not(.collapsed){
-    padding-bottom: .5rem;
+    padding-bottom: 5px;
     transition: all 0.35s ease;
 }
 .catalog-tree__link.collapsed{
@@ -78,8 +78,8 @@
 }
 .catalog-tree__link{
     color: $color-font;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: flex;
     align-items: center;
     padding-right: 1.3rem;

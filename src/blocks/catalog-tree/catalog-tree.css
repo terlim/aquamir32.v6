@@ -108,7 +108,7 @@
 }
 
 .catalog-tree__link:not(.collapsed) {
-    padding-bottom: .5rem;
+    padding-bottom: 5px;
     -webkit-transition: all 0.35s ease;
     -o-transition: all 0.35s ease;
     transition: all 0.35s ease;
@@ -122,8 +122,8 @@
 
 .catalog-tree__link {
     color: #717070;
-    padding-top: .5rem;
-    padding-bottom: .5rem;
+    padding-top: 5px;
+    padding-bottom: 5px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
