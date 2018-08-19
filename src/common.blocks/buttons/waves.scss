@@ -1,4 +1,4 @@
-
+@import "../../common.blocks/variables/variables";
 .waves-effect {
   position: relative;
   cursor: pointer;
@@ -34,7 +34,7 @@
     background-color: rgba(244, 67, 54, .70);
   }
   &.waves-yellow .waves-ripple {
-    background-color: rgba(255, 235, 59, .70);
+    background-color: $color-secondary-a-0;
   }
 
 
