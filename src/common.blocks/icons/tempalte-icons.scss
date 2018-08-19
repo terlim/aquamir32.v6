@@ -196,3 +196,17 @@
 
   font-size: 1.5rem;
 }
+.icon__collectors{
+  @extend %icon-glyphicons-collector;
+  padding-right: $icon-padding;
+  padding-left: $icon-padding;
+
+  font-size: 1.5rem;
+}
+.icon__ruble{
+  @extend %icon-glyphicons-ruble;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+
+  font-size: .8rem;
+}

@@ -36,3 +36,10 @@ $black:   #000000 !default;
 $blue:    #007bff !default;
 $green:   #28a745 !default;
 $red:     #dc3545 !default;
+
+$body-bg:                   $white;
+$body-color:                #212529;
+$headings-color:              inherit !default;
+// Customize the light and dark text colors for use in our YIQ color contrast function.
+$yiq-text-dark:             $gray-900 !default;
+$yiq-text-light:            $white !default;

@@ -39,6 +39,7 @@
     "gulp-rigger": "^0.5.8",
     "gulp-sass": "^4.0.1",
     "gulp-uglify": "^3.0.1",
+    "materialize-css": "^1.0.0-rc.2",
     "postcss-combine-duplicated-selectors": "^6.0.1",
     "postcss-focus": "^3.0.0",
     "precss": "^3.1.2",

@@ -155,34 +155,6 @@
     margin-top: 0;
 }
 
-.input-group-lg > .form-control,
-.input-group-lg > .input-group-prepend > .input-group-text,
-.input-group-lg > .input-group-append > .input-group-text,
-.input-group-lg > .input-group-prepend > .btn,
-.input-group-lg > .input-group-append > .btn {
-    height: -webkit-calc(3.15625rem + 2px);
-    height: calc(3.15625rem + 2px);
-    padding: 0.5rem 1rem;
-    font-size: 1.4375rem;
-    line-height: 1.5;
-    -webkit-border-radius: 0.3rem;
-    border-radius: 0.3rem;
-}
-
-.input-group-sm > .form-control,
-.input-group-sm > .input-group-prepend > .input-group-text,
-.input-group-sm > .input-group-append > .input-group-text,
-.input-group-sm > .input-group-prepend > .btn,
-.input-group-sm > .input-group-append > .btn {
-    height: -webkit-calc(2.00937rem + 2px);
-    height: calc(2.00937rem + 2px);
-    padding: 0.25rem 0.5rem;
-    font-size: 1.00625rem;
-    line-height: 1.5;
-    -webkit-border-radius: 0.2rem;
-    border-radius: 0.2rem;
-}
-
 .input-group > .input-group-prepend > .btn,
 .input-group > .input-group-prepend > .input-group-text,
 .input-group > .input-group-append:not(:last-child) > .btn,

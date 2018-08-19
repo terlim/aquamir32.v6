@@ -1,3 +1,32 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет A */
+/* Вторичный Цвет B */
 .swiper-container {
     margin-bottom: 1rem;
+    min-height: 136px;
+}
+
+@media (min-width: 576px) {
+    .swiper-container {
+        min-height: 240px;
+    }
+}
+
+@media (min-width: 768px) {
+    .swiper-container {
+        min-height: 210px;
+    }
+}
+
+@media (min-width: 992px) {
+    .swiper-container {
+        min-height: 320px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .swiper-container {
+        min-height: 380px;
+    }
 }

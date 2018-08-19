@@ -10,6 +10,7 @@ $icon_font_name:"myiconfont";
 %icon-glyphicons-auricular-phone-symbol-in-a-circle,
 %icon-glyphicons-catalog,
 %icon-glyphicons-clock,
+%icon-glyphicons-collector,
 %icon-glyphicons-commerce,
 %icon-glyphicons-garden,
 %icon-glyphicons-kanalizaciya,
@@ -25,6 +26,7 @@ $icon_font_name:"myiconfont";
 %icon-glyphicons-polypropilen,
 %icon-glyphicons-pump,
 %icon-glyphicons-radiatoryi,
+%icon-glyphicons-ruble,
 %icon-glyphicons-sale,
 %icon-glyphicons-search,
 %icon-glyphicons-smesiteli,
@@ -85,78 +87,84 @@ $icon_font_name:"myiconfont";
 %icon-glyphicons-clock:before {
 	content:'\E003';
 }
-%icon-glyphicons-commerce:before {
+%icon-glyphicons-collector:before {
 	content:'\E004';
 }
-%icon-glyphicons-garden:before {
+%icon-glyphicons-commerce:before {
 	content:'\E005';
 }
-%icon-glyphicons-kanalizaciya:before {
+%icon-glyphicons-garden:before {
 	content:'\E006';
 }
-%icon-glyphicons-komplekt:before {
+%icon-glyphicons-kanalizaciya:before {
 	content:'\E007';
 }
-%icon-glyphicons-latun:before {
+%icon-glyphicons-komplekt:before {
 	content:'\E008';
 }
-%icon-glyphicons-light:before {
+%icon-glyphicons-latun:before {
 	content:'\E009';
 }
-%icon-glyphicons-map-marker:before {
+%icon-glyphicons-light:before {
 	content:'\E00A';
 }
-%icon-glyphicons-matall:before {
+%icon-glyphicons-map-marker:before {
 	content:'\E00B';
 }
-%icon-glyphicons-meters:before {
+%icon-glyphicons-matall:before {
 	content:'\E00C';
 }
-%icon-glyphicons-podvodka:before {
+%icon-glyphicons-meters:before {
 	content:'\E00D';
 }
-%icon-glyphicons-polotencesushiteli:before {
+%icon-glyphicons-podvodka:before {
 	content:'\E00E';
 }
-%icon-glyphicons-polyetilen:before {
+%icon-glyphicons-polotencesushiteli:before {
 	content:'\E00F';
 }
-%icon-glyphicons-polypropilen:before {
+%icon-glyphicons-polyetilen:before {
 	content:'\E010';
 }
-%icon-glyphicons-pump:before {
+%icon-glyphicons-polypropilen:before {
 	content:'\E011';
 }
-%icon-glyphicons-radiatoryi:before {
+%icon-glyphicons-pump:before {
 	content:'\E012';
 }
-%icon-glyphicons-sale:before {
+%icon-glyphicons-radiatoryi:before {
 	content:'\E013';
 }
-%icon-glyphicons-search:before {
+%icon-glyphicons-ruble:before {
 	content:'\E014';
 }
-%icon-glyphicons-smesiteli:before {
+%icon-glyphicons-sale:before {
 	content:'\E015';
 }
-%icon-glyphicons-still:before {
+%icon-glyphicons-search:before {
 	content:'\E016';
 }
-%icon-glyphicons-tapbuks:before {
+%icon-glyphicons-smesiteli:before {
 	content:'\E017';
 }
-%icon-glyphicons-teploizolyaciya:before {
+%icon-glyphicons-still:before {
 	content:'\E018';
 }
-%icon-glyphicons-tools:before {
+%icon-glyphicons-tapbuks:before {
 	content:'\E019';
 }
-%icon-glyphicons-tube:before {
+%icon-glyphicons-teploizolyaciya:before {
 	content:'\E01A';
 }
-%icon-glyphicons-water-filter:before {
+%icon-glyphicons-tools:before {
 	content:'\E01B';
 }
-%icon-glyphicons-water-heater:before {
+%icon-glyphicons-tube:before {
 	content:'\E01C';
+}
+%icon-glyphicons-water-filter:before {
+	content:'\E01D';
+}
+%icon-glyphicons-water-heater:before {
+	content:'\E01E';
 }

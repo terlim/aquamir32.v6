@@ -1,0 +1,11 @@
+@import "../../common.blocks/variables/variables";
+@import "../../common.blocks/mixins/mixins";
+
+.ctovar__button{
+  background: $color-primary-3;
+  color: white;
+
+  &:hover{
+    background: $color-primary-2;
+  }
+}

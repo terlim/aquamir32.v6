@@ -1,0 +1,102 @@
+@import "../../common.blocks/variables/variables";
+@import "../../common.blocks/mixins/mixins";
+
+.ctovar__card-wrapper{
+  padding-bottom: 30px;
+  height: 100%;
+}
+.ctovar__card{
+  display: flex;
+  height: 100%;
+  flex-direction: row;
+  align-content: space-between;
+  flex-wrap: wrap;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 5px 10px -5px rgba(0,0,0,.4);
+  @include media-breakpoint-up(sm){
+    flex-direction: column;
+  }
+
+}
+.ctovar__img{
+  width: 50%;
+
+}
+.ctovar__title{
+  color: $color-primary-2;
+  font-size: 1.1rem;
+  padding: .5rem;
+  @include media-breakpoint-up(sm){
+    font-size: 1rem;
+    flex-grow: 1;
+  }
+
+}
+.ctovar__body{
+  display: flex;
+}
+.ctovar__properties-wrapper{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  width: 50%;
+  padding: .5rem;
+
+}
+.ctovar__properties{
+  font-size: .8rem;
+  @include media-breakpoint-up(sm){
+    font-size: .7rem;
+  }
+
+  @include media-breakpoint-up(lg){
+     font-size: .6rem;
+   }
+}
+
+.ctovar__footer{
+  width: 100%;
+
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: flex-end;
+
+}
+
+.ctovar__price{
+  color: $color-secondary-b-0;
+  font-size: 2.5rem;
+  @include media-breakpoint-up(sm){
+    font-size: 2rem;
+  }
+  @include media-breakpoint-up(md){
+    font-size: 1.8rem;
+  }
+  @include media-breakpoint-up(lg){
+    font-size: 1.5rem;
+  }
+
+  .icon__ruble{
+    color: $color-font;
+  }
+}
+.ctovar__brand{
+  color: $color-secondary-a-2;
+
+}
+.ctovar__article {
+  color: $color-secondary-a-2;
+}
+.ctovar__store{
+  color: $color-secondary-a-2;
+    span{
+      color: $color-secondary-b-1;
+    }
+}
+
+.ctovar__form{
+  padding: .5rem;
+  margin-bottom: 0;
+}
+
+@import "ctovar__button";

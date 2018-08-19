@@ -1,0 +1,179 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет A */
+/* Вторичный Цвет B */
+.ctovar__card-wrapper {
+    padding-bottom: 30px;
+    height: 100%;
+}
+
+.ctovar__card {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    height: 100%;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-content: space-between;
+    -ms-flex-line-pack: justify;
+    align-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+@media (min-width: 576px) {
+    .ctovar__card {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+}
+
+.ctovar__img {
+    width: 50%;
+}
+
+.ctovar__title {
+    color: #0d4e78;
+    font-size: 1.1rem;
+    padding: .5rem;
+}
+
+@media (min-width: 576px) {
+    .ctovar__title {
+        font-size: 1rem;
+        -webkit-box-flex: 1;
+        -webkit-flex-grow: 1;
+        -ms-flex-positive: 1;
+        flex-grow: 1;
+    }
+}
+
+.ctovar__body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.ctovar__properties-wrapper {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+    width: 50%;
+    padding: .5rem;
+}
+
+.ctovar__properties {
+    font-size: .8rem;
+}
+
+@media (min-width: 576px) {
+    .ctovar__properties {
+        font-size: .7rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .ctovar__properties {
+        font-size: .6rem;
+    }
+}
+
+.ctovar__footer {
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+}
+
+.ctovar__price {
+    color: #ff622c;
+    font-size: 2.5rem;
+}
+
+@media (min-width: 576px) {
+    .ctovar__price {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .ctovar__price {
+        font-size: 1.8rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .ctovar__price {
+        font-size: 1.5rem;
+    }
+}
+
+.ctovar__price .icon__ruble {
+    color: #717070;
+}
+
+.ctovar__brand {
+    color: #a67e0e;
+}
+
+.ctovar__article {
+    color: #a67e0e;
+}
+
+.ctovar__store {
+    color: #a67e0e;
+}
+
+.ctovar__store span {
+    color: #bf6749;
+}
+
+.ctovar__form {
+    padding: .5rem;
+    margin-bottom: 0;
+}
+
+/* Основной Цвет */
+/* Вторичный Цвет A */
+/* Вторичный Цвет B */
+.ctovar__button {
+    background: #5ca9dc;
+    color: white;
+}
+
+.ctovar__button:hover {
+    background: #0d4e78;
+}

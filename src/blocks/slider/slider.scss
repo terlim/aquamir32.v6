@@ -1,6 +1,20 @@
-
+@import "../../common.blocks/variables/variables";
+@import "../../common.blocks/mixins/mixins";
 .swiper-container{
   margin-bottom: 1rem;
+  min-height: 136px;
 
+  @include media-breakpoint-up(sm){
+    min-height: 240px;
+  }
+  @include media-breakpoint-up(md){
+    min-height: 210px;
+  }
+  @include media-breakpoint-up(lg){
+    min-height: 320px;
+  }
+  @include media-breakpoint-up(xl){
+    min-height: 380px;
+  }
 
 }

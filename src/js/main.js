@@ -5,6 +5,7 @@
 //= ../../node_modules/bootstrap/js/dist/collapse.js
 //= ../../node_modules/bootstrap/js/dist/dropdown.js
 //= ../../node_modules/swiper/dist/js/swiper.js
+//= ../../node_modules/materialize-css/js/waves.js
 
 $(document).ready(function () {
     //initialize swiper when document ready
