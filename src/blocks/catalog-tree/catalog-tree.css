@@ -59,9 +59,14 @@
     list-style-type: none;
     border-bottom: 1px solid #efefef;
     font-size: .9rem;
-    -webkit-transition: all .25s ease-in-out;
-    -o-transition: all .25s ease-in-out;
-    transition: all .25s ease-in-out;
+}
+
+@media (min-width: 768px) {
+    .catalog-tree__item {
+        -webkit-transition: all .25s ease-in-out;
+        -o-transition: all .25s ease-in-out;
+        transition: all .25s ease-in-out;
+    }
 }
 
 .catalog-tree__item.dropdown > a:after {
@@ -137,7 +142,7 @@
 
 .catalog-tree__link:hover {
     color: #717070;
-    background-color: #7a839326;
+    background-color: rgba(122, 131, 147, 0.24902);
 }
 
 .catalog-tree__level {

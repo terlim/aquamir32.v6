@@ -40,7 +40,9 @@
     list-style-type: none;
     border-bottom: 1px solid #efefef;
     font-size: .9rem;
-    transition: all .25s ease-in-out;
+    @include  media-breakpoint-up(md){
+      transition: all .25s ease-in-out;
+    }
     &.dropdown>a{
         &:after {
           position: absolute;
@@ -85,7 +87,7 @@
     padding-right: 1.3rem;
     &:hover{
       color: $color-font;
-      background-color: #7a839326;
+      background-color: rgba(122,131,147,.24902);
     }
 }
 .catalog-tree__level{
