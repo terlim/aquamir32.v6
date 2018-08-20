@@ -114,9 +114,6 @@
 
 .catalog-tree__link:not(.collapsed) {
     padding-bottom: 5px;
-    -webkit-transition: all 0.35s ease;
-    -o-transition: all 0.35s ease;
-    transition: all 0.35s ease;
 }
 
 .catalog-tree__link.collapsed {
