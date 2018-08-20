@@ -1,0 +1,60 @@
+@import "../../common.blocks/variables/variables";
+@import "../../common.blocks/mixins/mixins";
+@import "../../common.blocks/icons/icons";
+
+.navbottom {
+    background: $color-primary-1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: stretch;
+}
+
+.fixed-bottom{
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1900;
+    bottom: 0;
+}
+.navbottom__button{
+    background-color: transparent;
+    color: white;
+    width: 100%;
+    height: 100%;
+}
+
+.navbottom__button-back{
+    flex: 1 1 0;
+
+    text-align: center;
+}
+.navbottom__button-cart{
+    flex: 1 1 0;
+
+    text-align: center
+}
+.navbottom__button-catalog{
+    flex: 1 1 0;
+
+    text-align: center
+}
+
+.bottom__cart-wrapper{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+.bottom__cart-values{
+    font-size: .9rem;
+    line-height: 1.1;
+    i{
+        font-size: .7rem;
+    }
+}
+.navbar--theme-color-bottom{
+    background-color: $white;
+}

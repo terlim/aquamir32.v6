@@ -1,0 +1,21 @@
+@import "../../common.blocks/variables/variables";
+@import "../../common.blocks/mixins/mixins";
+@import "../../common.blocks/icons/icons";
+.footer{
+  background-color: $color-primary-2;
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.footer__menu{
+  list-style: none;
+  padding: 0;
+  font-size: 1rem;
+}
+.footer__link{
+  color: white;
+  &:hover{
+    color:$color-secondary-a-0;
+  }
+}

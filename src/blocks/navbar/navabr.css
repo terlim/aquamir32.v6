@@ -12,20 +12,6 @@
     background-color: #297FB8;
 }
 
-.navbar--theme-color .navbar-offcanvas {
-    padding: 0;
-}
-
-.navbar--theme-color .navbar-offcanvas {
-    overflow: auto;
-}
-
-@media (min-width: 768px) {
-    .navbar--theme-color .navbar-offcanvas {
-        overflow: inherit !important;
-    }
-}
-
 .navbar--theme-color .active:before {
     background: #ffd661;
     top: 41px;
@@ -45,6 +31,20 @@
     -o-transition: all .2s linear;
     transition: all .2s linear;
     width: 100%;
+}
+
+.navbar-offcanvas {
+    padding: 0 !important;
+}
+
+.navbar-offcanvas {
+    overflow: auto !important;
+}
+
+@media (min-width: 768px) {
+    .navbar-offcanvas {
+        overflow: inherit !important;
+    }
 }
 
 .navbar-fix {

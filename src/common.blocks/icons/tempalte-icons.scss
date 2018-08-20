@@ -210,3 +210,24 @@
 
   font-size: .8rem;
 }
+.icon__back{
+  @extend %icon-glyphicons-back;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+
+  font-size: 1.5rem;
+}
+.icon__bottom-catalog{
+  @extend %icon-glyphicons-catalog;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+
+  font-size: 1.5rem;
+}
+.icon__checklist{
+  @extend %icon-glyphicons-checklist;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+
+  font-size: 1.5rem;
+}
