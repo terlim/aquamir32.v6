@@ -1,148 +1,159 @@
 <div class="d-sm-block d-md-none">
     <div class="fixed-bottom navbottom">
-        <div class="navbottom__button-back">
-           <button formaction="/" class="btn navbottom__button waves-effect waves-yellow">
-              <i class="icon__back"></i>
-           </button>
-        </div>
-        <div class="navbottom__button-catalog">
-            <button type="button" class="btn navbottom__button waves-effect waves-yellow offcanvas-toggle"
-                    type="button" data-toggle="offcanvas"
-                    data-target="#navBottomButton-catalog"
-                    aria-controls="navBottomButton-catalog"
-                    aria-expanded="false"
-                    aria-label="Toggle navigation"> <i class="icon__checklist"></i>
-            </button>
-        </div>
-        <div class="navbottom__button-cart">
-            <button formaction="/" class="btn navbottom__button waves-effect waves-yellow">
-                <div class="bottom__cart-wrapper">
-                    <i class="icon__cart"></i>
-                    <div class="bottom__cart-values">
-                        <div>12шт</div>
-                        <div>12000<i class="icon__ruble"></i></div>
-                    </div>
+
+        <button type="button"
+                class="btn navbottom__button waves-effect waves-yellow offcanvas-toggle navbottom__button-catalog"
+                type="button" data-toggle="offcanvas"
+                data-target="#navBottomButton-catalog"
+                aria-controls="navBottomButton-catalog"
+                aria-expanded="false"
+                aria-label="Toggle navigation"><i class="icon__checklist"></i>
+        </button>
+
+        <button formaction="/" class="btn navbottom__button history waves-effect waves-yellow navbottom__button-back"
+                onclick="history.back();">
+            <i class="icon__back"></i>
+        </button>
+
+
+        <button formaction="/" class="btn navbottom__button waves-effect waves-yellow navbottom__button-cart">
+            <div class="bottom__cart-wrapper">
+                <i class="icon__cart"></i>
+                <div class="bottom__cart-values">
+                    <div>12шт</div>
+                    <div>12000<i class="icon__ruble"></i></div>
                 </div>
-            </button>
-        </div>
+            </div>
+        </button>
+
     </div>
 
     <div class="navbar-offcanvas navbar-offcanvas-touch navbar--theme-color-bottom" id="navBottomButton-catalog">
 
 
-            <div class="catalog-tree__title"><i class="icon__catalog"></i><span>Каталог</span></div>
+        <div class="catalog-tree__title"><i class="icon__catalog"></i><span>Каталог</span></div>
 
-            <ul id="accordion" class="catalog-tree__accordion">
-                <li class="catalog-tree__item  first">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__polypropilen"></i>Полипропилен </a>
-                </li>
-                <li class="catalog-tree__item ">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__polyetilen"></i>Полиэтилен </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__metalloplastik"></i>Металлопластик </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__kanalizaciya"></i>Канализация </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__radiatory"></i>Радиаторы </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__latun"></i>Латунь </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__polotencesushiteli"></i>Полотенцесушители </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__still"></i>Сталь </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__water-filter"></i>Фильтры </a>
-                </li>
-                <li class="catalog-tree__item  dropdown ">
-                    <a href="#item-7" class="catalog-tree__link catalog-tree__dropdown collapsed" id="collapseMenuButton7" data-toggle="collapse">
-                        <i class="icon__pumps"></i>Насосы</a>
-                    <div id="item-7" class="collapse">
-                        <ul class="catalog-tree__level">
-                            <li class="catalog-tree__levelitem">
-                                <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/instrument" class=" catalog-tree__levellink">Отопление и ГВС</a>
-                            </li>
-                            <li class="catalog-tree__levelitem">
-                                <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/vrezki" class=" catalog-tree__levellink">Водоснабжение и повышение давления</a>
-                            </li>
-                            <li class="catalog-tree__levelitem">
-                                <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/vrezki" class=" catalog-tree__levellink">Запасные части к насосам</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__tube"></i>Трубы </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__water-heater"></i>Котлы </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__collectors"></i>Шкафы и коллекторы </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__podvodka"></i>Гибкая подводка </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__teploizolyciya"></i>Теплоизоляция </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__smesitely"></i>Смесители </a>
-                </li>
-                <li class="catalog-tree__item  dropdown ">
-                    <a href="#item-7" class="catalog-tree__link catalog-tree__dropdown collapsed" id="collapseMenuButton7" data-toggle="collapse">
-                        <i class="icon__tools"></i> Инструмент и расходные материалы</a>
-                    <div id="item-7" class="collapse">
-                        <ul class="catalog-tree__level">
-                            <li class="catalog-tree__levelitem">
-                                <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/instrument" class=" catalog-tree__levellink">Инструмент</a>
-                            </li>
-                            <li class="catalog-tree__levelitem">
-                                <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/vrezki" class=" catalog-tree__levellink">Врезки</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="catalog-tree__item  dropdown ">
-                    <a href="#item-7" class="catalog-tree__link catalog-tree__dropdown collapsed" id="collapseMenuButton7" data-toggle="collapse">
-                        <i class="icon__meters"></i>Манометры, счетчики</a>
-                    <div id="item-7" class="collapse">
-                        <ul class="catalog-tree__level">
-                            <li class="catalog-tree__levelitem">
-                                <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/instrument" class=" catalog-tree__levellink">Манометры</a>
-                            </li>
-                            <li class="catalog-tree__levelitem">
-                                <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/vrezki" class=" catalog-tree__levellink">Счетчики для воды</a>
-                            </li>
-                        </ul>
-                    </div>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__tapbuks"></i>Кранбуксы </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__light"></i>Светотехнические изделия </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__komplekt"></i>Комплектующие </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__garden"></i>Для дачи </a>
-                </li>
-                <li class="catalog-tree__item">
-                    <a href="#item-1" class="catalog-tree__link" > <i class="icon__sale"></i>Товары со скидкой </a>
-                </li>
-                <br><br>
-            </ul>
+        <ul id="accordion" class="catalog-tree__accordion">
+            <li class="catalog-tree__item  first">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__polypropilen"></i>Полипропилен </a>
+            </li>
+            <li class="catalog-tree__item ">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__polyetilen"></i>Полиэтилен </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__metalloplastik"></i>Металлопластик </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__kanalizaciya"></i>Канализация </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__radiatory"></i>Радиаторы </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__latun"></i>Латунь </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__polotencesushiteli"></i>Полотенцесушители
+                </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__still"></i>Сталь </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__water-filter"></i>Фильтры </a>
+            </li>
+            <li class="catalog-tree__item  dropdown ">
+                <a href="#item-7" class="catalog-tree__link catalog-tree__dropdown collapsed" id="collapseMenuButton7"
+                   data-toggle="collapse">
+                    <i class="icon__pumps"></i>Насосы</a>
+                <div id="item-7" class="collapse">
+                    <ul class="catalog-tree__level">
+                        <li class="catalog-tree__levelitem">
+                            <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/instrument"
+                               class=" catalog-tree__levellink">Отопление и ГВС</a>
+                        </li>
+                        <li class="catalog-tree__levelitem">
+                            <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/vrezki"
+                               class=" catalog-tree__levellink">Водоснабжение и повышение давления</a>
+                        </li>
+                        <li class="catalog-tree__levelitem">
+                            <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/vrezki"
+                               class=" catalog-tree__levellink">Запасные части к насосам</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__tube"></i>Трубы </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__water-heater"></i>Котлы </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__collectors"></i>Шкафы и коллекторы </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__podvodka"></i>Гибкая подводка </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__teploizolyciya"></i>Теплоизоляция </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__smesitely"></i>Смесители </a>
+            </li>
+            <li class="catalog-tree__item  dropdown ">
+                <a href="#item-7" class="catalog-tree__link catalog-tree__dropdown collapsed" id="collapseMenuButton7"
+                   data-toggle="collapse">
+                    <i class="icon__tools"></i> Инструмент и расходные материалы</a>
+                <div id="item-7" class="collapse">
+                    <ul class="catalog-tree__level">
+                        <li class="catalog-tree__levelitem">
+                            <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/instrument"
+                               class=" catalog-tree__levellink">Инструмент</a>
+                        </li>
+                        <li class="catalog-tree__levelitem">
+                            <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/vrezki"
+                               class=" catalog-tree__levellink">Врезки</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="catalog-tree__item  dropdown ">
+                <a href="#item-7" class="catalog-tree__link catalog-tree__dropdown collapsed" id="collapseMenuButton7"
+                   data-toggle="collapse">
+                    <i class="icon__meters"></i>Манометры, счетчики</a>
+                <div id="item-7" class="collapse">
+                    <ul class="catalog-tree__level">
+                        <li class="catalog-tree__levelitem">
+                            <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/instrument"
+                               class=" catalog-tree__levellink">Манометры</a>
+                        </li>
+                        <li class="catalog-tree__levelitem">
+                            <a href="/catalog/santexnika/instrument-i-rasxodnyie-materialyi/vrezki"
+                               class=" catalog-tree__levellink">Счетчики для воды</a>
+                        </li>
+                    </ul>
+                </div>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__tapbuks"></i>Кранбуксы </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__light"></i>Светотехнические изделия </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__komplekt"></i>Комплектующие </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__garden"></i>Для дачи </a>
+            </li>
+            <li class="catalog-tree__item">
+                <a href="#item-1" class="catalog-tree__link"> <i class="icon__sale"></i>Товары со скидкой </a>
+            </li>
+            <br><br>
+        </ul>
 
-        </div>
-
+    </div>
 
 
 </div>
