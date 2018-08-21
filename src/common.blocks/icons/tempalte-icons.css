@@ -179,7 +179,6 @@
 }
 
 /* Основной Цвет */
-/* Вторичный Цвет A */
 /* Вторичный Цвет B */
 .icon__address-marker {
     padding-right: .5rem;
@@ -355,8 +354,8 @@
 }
 
 .icon__ruble {
-    padding-right: 5px;
-    padding-left: 5px;
+    padding-right: 1px;
+    padding-left: 1px;
     font-size: .8rem;
 }
 

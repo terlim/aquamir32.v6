@@ -5,11 +5,11 @@
 
 }
 .search-form{
-    background-color: $color-secondary-a-0;
+    background-color: $color-search;
     height: 100%;
     display: flex;
     align-items: stretch;
-
+    justify-content: space-between;
     margin-right: 15px;
     @include media-breakpoint-up(md){
         margin: inherit;
@@ -20,7 +20,7 @@
     margin: .7rem 0 .7rem 1rem;
     border-radius: 0;
     width: 100%;
-
+    flex: 1 1 auto;
     padding: 0 .75rem;
     border: 0 solid transparent;
     font-size: 1rem;

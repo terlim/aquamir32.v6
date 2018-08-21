@@ -205,8 +205,8 @@
 }
 .icon__ruble{
   @extend %icon-glyphicons-ruble;
-  padding-right: $icon-padding/2;
-  padding-left: $icon-padding/2;
+  padding-right: $icon-padding/10;
+  padding-left: $icon-padding/10;
 
   font-size: .8rem;
 }

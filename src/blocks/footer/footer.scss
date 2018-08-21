@@ -2,7 +2,7 @@
 @import "../../common.blocks/mixins/mixins";
 @import "../../common.blocks/icons/icons";
 .footer{
-  background-color: $color-primary-2;
+  background-color: $color-footer-background;
   color: white;
   padding: 1rem;
   font-size: 1rem;
@@ -16,6 +16,6 @@
 .footer__link{
   color: white;
   &:hover{
-    color:$color-secondary-a-0;
+    color:$color-footer-font-hover;
   }
 }

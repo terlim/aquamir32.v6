@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Основной Цвет */
-/* Вторичный Цвет A */
 /* Вторичный Цвет B */
 *,
 *::before,
@@ -55,6 +54,7 @@ hr {
 }
 
 h1, h2, h3, h4, h5, h6 {
+    color: #0d4e78;
     margin-top: 0;
     margin-bottom: 0.5rem;
 }

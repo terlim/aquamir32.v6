@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Основной Цвет */
-/* Вторичный Цвет A */
 /* Вторичный Цвет B */
 .ctovar__card-wrapper {
     padding-bottom: 30px;
@@ -43,12 +42,18 @@
     -webkit-align-self: center;
     -ms-flex-item-align: center;
     align-self: center;
+    position: relative;
 }
 
 .ctovar__title {
     color: #0d4e78;
     font-size: 1.1rem;
     padding: .5rem;
+    line-height: 1.3;
+}
+
+.ctovar__title a {
+    color: inherit;
 }
 
 @media (min-width: 576px) {
@@ -78,10 +83,10 @@
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
     -webkit-box-align: start;
     -webkit-align-items: flex-start;
     -ms-flex-align: start;
@@ -122,25 +127,31 @@
 }
 
 .ctovar__price {
-    color: #ff622c;
-    font-size: 2.5rem;
+    color: #fa4319;
+    font-size: 2rem;
 }
 
 @media (min-width: 576px) {
     .ctovar__price {
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
 }
 
 @media (min-width: 768px) {
     .ctovar__price {
-        font-size: 1.8rem;
+        font-size: 1.3rem;
     }
 }
 
 @media (min-width: 992px) {
     .ctovar__price {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ctovar__price {
+        font-size: 1.1rem;
     }
 }
 
@@ -170,7 +181,6 @@
 }
 
 /* Основной Цвет */
-/* Вторичный Цвет A */
 /* Вторичный Цвет B */
 .ctovar__button {
     background: #5ca9dc;

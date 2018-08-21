@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Основной Цвет */
-/* Вторичный Цвет A */
 /* Вторичный Цвет B */
 @font-face {
     font-family: "myiconfont";
@@ -54,8 +53,8 @@
 }
 
 .logo path {
-    stroke: #ff622c;
-    fill: #ff622c;
+    stroke: #fa4319;
+    fill: #fa4319;
 }
 
 .header__siteNameWrap {

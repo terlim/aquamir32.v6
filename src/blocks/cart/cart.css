@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Основной Цвет */
-/* Вторичный Цвет A */
 /* Вторичный Цвет B */
 @import url(cart-hover/cart-hover.css);
 
@@ -56,8 +55,8 @@
     justify-content: center;
     overflow: hidden;
     position: relative;
-    background: #ff622c;
-    color: #ffc82c !important;
+    background: #fa4319;
+    color: #fad31a !important;
 }
 
 .cart-wrapper-flash:before {

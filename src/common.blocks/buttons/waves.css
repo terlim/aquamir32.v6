@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Основной Цвет */
-/* Вторичный Цвет A */
 /* Вторичный Цвет B */
 .waves-effect {
     position: relative;
@@ -52,7 +51,7 @@
 }
 
 .waves-effect.waves-yellow .waves-ripple {
-    background-color: #ffc82c;
+    background-color: #fad31a;
 }
 
 .waves-effect input[type="button"], .waves-effect input[type="reset"], .waves-effect input[type="submit"] {

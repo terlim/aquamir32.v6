@@ -4,21 +4,48 @@
 
 $color-primary-0: #297FB8;	/* Основной Цвет */
 $color-primary-1: #3a6a8a;
-$color-primary-2: #0d4e78;
-$color-primary-3: #5ca9dc;
+
+
 $color-primary-4: #76C5DB;
 
-$color-secondary-a-0: #ffc82c;	/* Вторичный Цвет A */
+
+
 $color-secondary-a-1: #bfa049;
 $color-secondary-a-2: #a67e0e;
 $color-secondary-a-3: #ffd661;
 $color-secondary-a-4: #ffe18b;
 
-$color-secondary-b-0: #ff622c;	/* Вторичный Цвет B */
+$color-secondary-b-0: #fa4319;	/* Вторичный Цвет B */
 $color-secondary-b-1: #bf6749;
 $color-secondary-b-2: #a6350e;
 $color-secondary-b-3: #ff8961;
 $color-secondary-b-4: #ffa98b;
+
+//color logo
+$color-logo: #fa4319;
+
+//color navbar
+$color-navbar-background: #0d4e78;
+
+//color navbar search
+$color-search: #fad31a;
+
+//color header
+
+$color-header-sitename: $color-navbar-background;
+
+//color cart
+$color-cart-font: $color-search;
+$color-cart-background: $color-logo;
+
+//color footer
+$color-footer-font-hover: $color-search;
+$color-footer-background: $color-navbar-background;
+
+//color catalog-tovar
+$color-catalog-tovar-title:$color-navbar-background;
+$color-catalog-tovar-background-button-hover: $color-navbar-background;
+$color-catalog-tovar-background-button: #5ca9dc;
 
 $color-font: #717070;
 

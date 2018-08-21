@@ -27,8 +27,8 @@
   height: 65px;
   margin-right: .3rem;
   path {
-    stroke: $color-secondary-b-0;
-    fill: $color-secondary-b-0;
+    stroke: $color-logo;
+    fill: $color-logo;
   }
 }
 
@@ -40,7 +40,7 @@
 .header__SiteName{
   font-size: .9rem;
   font-weight: bold;
-  color: $color-primary-2;
+  color: $color-header-sitename;
 }
 .header__SiteSubname{
   font-size: .65rem;
@@ -51,7 +51,7 @@
 .header__address{
   display: none;
   align-self: center;
-  color: $color-primary-2;
+  color: $color-header-sitename;
   font-size: 1.5rem;
   font-weight: normal;
 
@@ -70,7 +70,7 @@
 
   .icon__tel{
     display: none;
-    color: $color-primary-2;
+    color: $color-header-sitename;
     font-size: .9rem;
   }
 }
@@ -79,7 +79,7 @@
   flex-direction: column;
   justify-content: space-between;
   font-size: .8rem;
-  color: $color-primary-2;
+  color: $color-header-sitename;
   a{
     color: inherit;
   }

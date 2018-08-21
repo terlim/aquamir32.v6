@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Основной Цвет */
-/* Вторичный Цвет A */
 /* Вторичный Цвет B */
 @font-face {
     font-family: "myiconfont";
@@ -26,5 +25,5 @@
 }
 
 .footer__link:hover {
-    color: #ffc82c;
+    color: #fad31a;
 }

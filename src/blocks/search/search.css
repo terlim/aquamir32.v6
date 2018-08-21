@@ -1,6 +1,5 @@
 @charset "UTF-8";
 /* Основной Цвет */
-/* Вторичный Цвет A */
 /* Вторичный Цвет B */
 @font-face {
     font-family: "myiconfont";
@@ -9,7 +8,7 @@
 }
 
 .search-form {
-    background-color: #ffc82c;
+    background-color: #fad31a;
     height: 100%;
     display: -webkit-box;
     display: -webkit-flex;
@@ -19,6 +18,10 @@
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
     align-items: stretch;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     margin-right: 15px;
 }
 
@@ -33,6 +36,10 @@
     -webkit-border-radius: 0;
     border-radius: 0;
     width: 100%;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
     padding: 0 .75rem;
     border: 0 solid transparent;
     font-size: 1rem;

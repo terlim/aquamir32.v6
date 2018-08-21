@@ -2,10 +2,10 @@
 @import "../../common.blocks/mixins/mixins";
 
 .ctovar__button{
-  background: $color-primary-3;
+  background: $color-catalog-tovar-background-button;
   color: white;
 
   &:hover{
-    background: $color-primary-2;
+    background: $color-catalog-tovar-background-button-hover;
   }
 }
