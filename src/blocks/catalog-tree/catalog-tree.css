@@ -89,6 +89,9 @@
     -webkit-transition-duration: .5s;
     -o-transition-duration: .5s;
     transition-duration: .5s;
+    -webkit-align-self: center;
+    -ms-flex-item-align: center;
+    align-self: center;
 }
 
 .catalog-tree__item.dropdown > a.collapsed:after {
