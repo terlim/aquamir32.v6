@@ -1,0 +1,12 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет B */
+.tovar__price {
+    font-size: 2.5rem;
+    color: #fa4319;
+}
+
+.tovar__price i {
+    font-size: 1.5rem;
+    color: #717070;
+}

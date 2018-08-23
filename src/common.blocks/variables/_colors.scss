@@ -15,7 +15,7 @@ $color-secondary-a-2: #a67e0e;
 $color-secondary-a-3: #ffd661;
 $color-secondary-a-4: #ffe18b;
 
-$color-secondary-b-0: #fa4319;	/* Вторичный Цвет B */
+$color-secondary-b-01: #fa4319;	/* Вторичный Цвет B */
 $color-secondary-b-1: #bf6749;
 $color-secondary-b-2: #a6350e;
 $color-secondary-b-3: #ff8961;
@@ -43,10 +43,10 @@ $color-footer-font-hover: $color-search;
 $color-footer-background: $color-navbar-background;
 
 //color catalog-tovar
-$color-catalog-tovar-title:$color-navbar-background;
+$color-catalog-tovar-title:                   $color-navbar-background;
 $color-catalog-tovar-background-button-hover: $color-navbar-background;
-$color-catalog-tovar-background-button: #5ca9dc;
-
+$color-catalog-tovar-background-button:       #5ca9dc;
+$color-tovar-price: $color-logo;
 $color-font: #717070;
 
 $white: #ffffff;
