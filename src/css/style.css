@@ -7,6 +7,8 @@
 @import "../common.blocks/forms/input-group.css";
 @import "../common.blocks/buttons/waves.css";
 @import "../common.blocks/buttons/buttons.css";
+@import "../common.blocks/pagination/pagination.css";
+@import "../common.blocks/breadcrumbs/breadcrumbs.css";
 
 @import "../common.blocks/icons/tempalte-icons.css";
 @import "../blocks/header/header.css";
@@ -19,6 +21,7 @@
 @import "../blocks/catalog-tree/catalog-tree.css";
 @import "../blocks/catalog-tovar/catalog-tovar.css";
 @import "../blocks/our_advice/our_advice.css";
+@import "../blocks/filter/filter.css";
 
 
 @import "../blocks/footer/footer.css";

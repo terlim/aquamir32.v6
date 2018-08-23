@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет B */
+@font-face {
+    font-family: "myiconfont";
+  src: url("../fonts/icons/myiconfont.eot");
+  src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
+}
+
+.filter__wrapper {
+    display: block;
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.filter__title {
+    background-color: #76C5DB;
+    padding: 10px;
+    width: 100%;
+    min-height: 51px;
+    line-height: 1.1;
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 400;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.filter__content-wrapper {
+    padding: .5rem;
+}
+
+.filter__name {
+    font-size: .8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.filter__label {
+    font-size: .8rem;
+    display: block;
+}
+
+.filter__label:hover {
+    cursor: pointer;
+}
+
+.navbottom__button-filter {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 0;
+    -ms-flex: 1 1 0px;
+    flex: 1 1 0;
+    -webkit-box-ordinal-group: 2;
+    -webkit-order: 1;
+    -ms-flex-order: 1;
+    order: 1;
+    text-align: center;
+}

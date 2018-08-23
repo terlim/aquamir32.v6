@@ -231,3 +231,9 @@
 
   font-size: 1.5rem;
 }
+.icon__folter-checklist{
+  @extend %icon-glyphicons-checklist;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+
+}
