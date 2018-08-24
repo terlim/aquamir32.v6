@@ -10,3 +10,24 @@
     font-size: 1.5rem;
     color: #717070;
 }
+
+.tovar__brend {
+    color: #a67e0e;
+}
+
+.tovar__article {
+    color: #a67e0e;
+}
+
+.tovar__store {
+    color: #a67e0e;
+}
+
+.tovar-btn--add {
+    background: #5ca9dc;
+    color: white;
+}
+
+.tovar-btn--add:hover {
+    background: #0d4e78;
+}

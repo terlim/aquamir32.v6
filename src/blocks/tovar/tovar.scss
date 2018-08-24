@@ -13,4 +13,28 @@
     font-size: 1.5rem;
     color: #717070;
   }
+  @include media-breakpoint-up(md){
+
+  }
+}
+
+.tovar__brend{
+  color: $color-secondary-a-2;
+}
+
+.tovar__article{
+  color: $color-secondary-a-2;
+}
+
+.tovar__store{
+  color: $color-secondary-a-2;
+}
+
+.tovar-btn--add{
+  background: $color-catalog-tovar-background-button;
+  color: white;
+
+  &:hover{
+    background: $color-catalog-tovar-background-button-hover;
+  }
 }
