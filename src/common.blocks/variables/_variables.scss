@@ -249,21 +249,7 @@ $form-feedback-valid-color:         $green !default;
 $form-feedback-invalid-color:       $red !default;
 
 
-// Tooltips
 
-$tooltip-font-size:                 $font-size-sm !default;
-$tooltip-max-width:                 200px !default;
-$tooltip-color:                     $white !default;
-$tooltip-bg:                        $black !default;
-$tooltip-border-radius:             $border-radius !default;
-$tooltip-opacity:                   .9 !default;
-$tooltip-padding-y:                 .25rem !default;
-$tooltip-padding-x:                 .5rem !default;
-$tooltip-margin:                    0 !default;
-
-$tooltip-arrow-width:               .8rem !default;
-$tooltip-arrow-height:              .4rem !default;
-$tooltip-arrow-color:               $tooltip-bg !default;
 
 
 // Popovers
@@ -358,6 +344,7 @@ $alert-color-level:                 6 !default;
 
 @import "catalog-tree";
 @import "buttons";
-
+@import "tooltip";
+@import "tabs";
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");

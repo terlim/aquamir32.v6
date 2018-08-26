@@ -1,0 +1,79 @@
+@import "../../common.blocks/variables/variables";
+@import "../../common.blocks/mixins/mixins";
+
+.fade {
+  transition: opacity .15s linear;
+}
+
+.fade:not(.show) {
+  opacity: 0;
+}
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+  margin-bottom: 0;
+  list-style: none;
+}
+
+//
+// Tabs
+//
+
+
+.nav-tabs {
+  border-bottom: $nav-tabs-border-width solid $nav-tabs-border-color;
+
+  .tab-item {
+    margin-bottom: -$nav-tabs-border-width;
+  }
+
+  .tab-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: .9rem;
+
+    border: $nav-tabs-border-width solid transparent;
+    @include border-top-radius($nav-tabs-border-radius);
+
+    @include hover-focus {
+      border-color: $nav-tabs-link-hover-border-color;
+    }
+
+    &.disabled {
+      color: $nav-link-disabled-color;
+      background-color: transparent;
+      border-color: transparent;
+    }
+    @include media-breakpoint-up(sm){
+      font-size: 1rem;
+    }
+  }
+
+  .tab-link.active,
+  .tab-item.show .tab-link {
+    color: $nav-tabs-link-active-color;
+    background-color: $nav-tabs-link-active-bg;
+    border-color: $nav-tabs-link-active-border-color;
+  }
+
+  .dropdown-menu {
+    // Make dropdown border overlap tab border
+    margin-top: -$nav-tabs-border-width;
+    // Remove the top rounded corners here since there is a hard edge above the menu
+    @include border-top-radius(0);
+  }
+}
+// Tabbable tabs
+//
+// Hide tabbable panes to start, show them when `.active`
+
+.tab-content {
+  > .tab-pane {
+    display: none;
+  }
+  > .active {
+    padding: 1rem;
+    display: block;
+  }
+}

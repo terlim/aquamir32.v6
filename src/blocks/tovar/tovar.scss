@@ -2,9 +2,15 @@
 @import "../../common.blocks/mixins/mixins";
 
 .tovar{
-
+  margin-top: 1rem;
+@include media-breakpoint-up(lg){
+  margin-top: 0;
 }
-
+}
+.tovar_content{
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
 .tovar__price{
   font-size: 2.5rem;
   color: $color-tovar-price;
@@ -17,7 +23,9 @@
 
   }
 }
-
+.h1__tovar-title{
+  font-size: $h1-font-size*1.5;
+}
 .tovar__brend{
   color: $color-secondary-a-2;
 }
@@ -36,5 +44,25 @@
 
   &:hover{
     background: $color-catalog-tovar-background-button-hover;
+  }
+}
+.tovar__properties-wrapper{
+  text-align: right;
+  margin-bottom: 1rem;
+}
+
+.tooltips__wrapper{
+  margin: 1rem 0;
+  background: #76c5db3b;
+  padding: 1rem;
+  color: #7a7a78;
+}
+.tovar__tooltip{
+  font-weight: 300;
+
+
+  border-bottom: 1px dotted #adadac;
+  &:hover{
+    cursor: pointer;
   }
 }

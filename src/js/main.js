@@ -4,9 +4,16 @@
 //= ../../node_modules/bootstrap/js/dist/util.js
 //= ../../node_modules/bootstrap/js/dist/collapse.js
 //= ../../node_modules/bootstrap/js/dist/dropdown.js
+//= ../../node_modules/bootstrap/js/dist/tooltip.js
+//= ../../node_modules/bootstrap/js/dist/tab.js
 //= ../../node_modules/swiper/dist/js/swiper.js
 //= ../../node_modules/materialize-css/js/waves.js
 
+$(document).ready(function () {
+    $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+    })
+})
 $(document).ready(function () {
     //initialize swiper when document ready
     var mySwiper = new Swiper ('#swiper-promo', {
@@ -73,13 +80,13 @@ $(document).ready(function () {
                 slidesPerView: 1,
                 spaceBetween: 10
             },
-            // when window width is <= 920px
-            920: {
+            // when window width is <= 980px
+            992: {
                 slidesPerView: 2,
                 spaceBetween: 20
             },
-            // when window width is <= 960px
-            960: {
+            // when window width is <= 1200px
+            1200: {
                 slidesPerView: 3,
                 spaceBetween: 30
             },
@@ -97,6 +104,7 @@ $(document).ready(function () {
     });
 
 });
+
 
 
 

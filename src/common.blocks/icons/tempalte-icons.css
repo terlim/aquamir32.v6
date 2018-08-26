@@ -15,6 +15,7 @@
 .icon__worTime:before,
 .icon__collectors:before,
 .icon__cart:before,
+.icon__credit-card:before,
 .icon__garden:before,
 .icon__kanalizaciya:before,
 .icon__komplekt:before,
@@ -22,6 +23,7 @@
 .icon__light:before,
 .icon__address-marker:before,
 .icon__metalloplastik:before,
+.icon__message:before,
 .icon__meters:before,
 .icon__podvodka:before,
 .icon__polotencesushiteli:before,
@@ -29,10 +31,13 @@
 .icon__polypropilen:before,
 .icon__pumps:before,
 .icon__radiatory:before,
+.icon__refresh:before,
 .icon__ruble:before,
 .icon__sale:before,
 .icon__search:before,
+.icon__shield:before,
 .icon__smesitely:before,
+.icon__star:before,
 .icon__still:before,
 .icon__tapbuks:before,
 .icon__teploizolyciya:before,
@@ -80,104 +85,124 @@
     content: '\E007';
 }
 
-.icon__garden:before {
+.icon__credit-card:before {
     content: '\E008';
 }
 
-.icon__kanalizaciya:before {
+.icon__garden:before {
     content: '\E009';
 }
 
-.icon__komplekt:before {
+.icon__kanalizaciya:before {
     content: '\E00A';
 }
 
-.icon__latun:before {
+.icon__komplekt:before {
     content: '\E00B';
 }
 
-.icon__light:before {
+.icon__latun:before {
     content: '\E00C';
 }
 
-.icon__address-marker:before {
+.icon__light:before {
     content: '\E00D';
 }
 
-.icon__metalloplastik:before {
+.icon__address-marker:before {
     content: '\E00E';
 }
 
-.icon__meters:before {
+.icon__metalloplastik:before {
     content: '\E00F';
 }
 
-.icon__podvodka:before {
+.icon__message:before {
     content: '\E010';
 }
 
-.icon__polotencesushiteli:before {
+.icon__meters:before {
     content: '\E011';
 }
 
-.icon__polyetilen:before {
+.icon__podvodka:before {
     content: '\E012';
 }
 
-.icon__polypropilen:before {
+.icon__polotencesushiteli:before {
     content: '\E013';
 }
 
-.icon__pumps:before {
+.icon__polyetilen:before {
     content: '\E014';
 }
 
-.icon__radiatory:before {
+.icon__polypropilen:before {
     content: '\E015';
 }
 
-.icon__ruble:before {
+.icon__pumps:before {
     content: '\E016';
 }
 
-.icon__sale:before {
+.icon__radiatory:before {
     content: '\E017';
 }
 
-.icon__search:before {
+.icon__refresh:before {
     content: '\E018';
 }
 
-.icon__smesitely:before {
+.icon__ruble:before {
     content: '\E019';
 }
 
-.icon__still:before {
+.icon__sale:before {
     content: '\E01A';
 }
 
-.icon__tapbuks:before {
+.icon__search:before {
     content: '\E01B';
 }
 
-.icon__teploizolyciya:before {
+.icon__shield:before {
     content: '\E01C';
 }
 
-.icon__tools:before {
+.icon__smesitely:before {
     content: '\E01D';
 }
 
-.icon__tube:before {
+.icon__star:before {
     content: '\E01E';
 }
 
-.icon__water-filter:before {
+.icon__still:before {
     content: '\E01F';
 }
 
-.icon__water-heater:before {
+.icon__tapbuks:before {
     content: '\E020';
+}
+
+.icon__teploizolyciya:before {
+    content: '\E021';
+}
+
+.icon__tools:before {
+    content: '\E022';
+}
+
+.icon__tube:before {
+    content: '\E023';
+}
+
+.icon__water-filter:before {
+    content: '\E024';
+}
+
+.icon__water-heater:before {
+    content: '\E025';
 }
 
 /* Основной Цвет */
@@ -382,4 +407,39 @@
 .icon__folter-checklist {
     padding-right: 5px;
     padding-left: 5px;
+}
+
+.icon__shield {
+    padding-right: 5px;
+    padding-left: 5px;
+    top: 3px;
+    position: relative;
+}
+
+.icon__message {
+    padding-right: 5px;
+    padding-left: 5px;
+    top: 2px;
+    position: relative;
+}
+
+.icon__refresh {
+    padding-right: 5px;
+    padding-left: 5px;
+    top: 2px;
+    position: relative;
+}
+
+.icon__credit-card {
+    padding-right: 5px;
+    padding-left: 5px;
+    top: 2px;
+    position: relative;
+}
+
+.icon__star {
+    padding-right: 5px;
+    padding-left: 5px;
+    top: 2px;
+    position: relative;
 }

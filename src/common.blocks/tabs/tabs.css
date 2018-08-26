@@ -1,0 +1,84 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет B */
+.fade {
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear;
+}
+
+.fade:not(.show) {
+    opacity: 0;
+}
+
+.nav {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+}
+
+.nav-tabs .tab-item {
+    margin-bottom: -1px;
+}
+
+.nav-tabs .tab-link {
+    display: block;
+    padding: .5rem 1rem;
+    font-size: .9rem;
+    border: 1px solid transparent;
+    -webkit-border-top-left-radius: 0.25rem;
+    border-top-left-radius: 0.25rem;
+    -webkit-border-top-right-radius: 0.25rem;
+    border-top-right-radius: 0.25rem;
+}
+
+.nav-tabs .tab-link:hover, .nav-tabs .tab-link:focus {
+    border-color: #e9ecef #e9ecef #dee2e6;
+}
+
+.nav-tabs .tab-link.disabled {
+    color: #6c757d;
+    background-color: transparent;
+    border-color: transparent;
+}
+
+@media (min-width: 576px) {
+    .nav-tabs .tab-link {
+        font-size: 1rem;
+    }
+}
+
+.nav-tabs .tab-link.active,
+  .nav-tabs .tab-item.show .tab-link {
+    color: #495057;
+    background-color: #ffffff;
+    border-color: #dee2e6 #dee2e6 #ffffff;
+}
+
+.nav-tabs .dropdown-menu {
+    margin-top: -1px;
+    -webkit-border-top-left-radius: 0;
+    border-top-left-radius: 0;
+    -webkit-border-top-right-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.tab-content > .tab-pane {
+    display: none;
+}
+
+.tab-content > .active {
+    padding: 1rem;
+    display: block;
+}
