@@ -1,3 +1,6 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет B */
 .promo-card__wrapper {
     margin-bottom: 1rem;
 }
@@ -35,5 +38,11 @@
 
 .promo-card__validity, .promo-card__published {
     color: #a67e0e;
-    font-size: 0.8rem;
+    font-size: .6rem;
+}
+
+@media (min-width: 576px) {
+    .promo-card__validity, .promo-card__published {
+        font-size: 0.8rem;
+    }
 }

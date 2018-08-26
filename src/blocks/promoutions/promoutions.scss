@@ -1,3 +1,5 @@
+@import "../../common.blocks/variables/variables";
+@import "../../common.blocks/mixins/mixins";
 .promo-card__wrapper{
   margin-bottom: 1rem;
 }
@@ -18,5 +20,8 @@
 }
 .promo-card__validity, .promo-card__published{
   color: #a67e0e;
-  font-size: 0.8rem;
+  font-size: .6rem;
+  @include media-breakpoint-up(sm) {
+    font-size: 0.8rem;
+  }
 }

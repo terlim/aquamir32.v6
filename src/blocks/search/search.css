@@ -10,6 +10,7 @@
 .search-form {
     background-color: #fad31a;
     height: 100%;
+    height: 56px;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
