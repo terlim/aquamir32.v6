@@ -272,3 +272,8 @@
   top: 2px;
   position: relative;
 }
+.icon__remove{
+  @extend %icon-glyphicons-remove;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+}

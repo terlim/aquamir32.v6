@@ -1,0 +1,22 @@
+.promo-card__wrapper{
+  margin-bottom: 1rem;
+}
+.promo-card{
+  padding: 1rem;
+  box-shadow: 0 0 0 1px rgba(0,0,0,.1), 0 5px 10px -5px rgba(0,0,0,.4);
+}
+.promo-card__title{
+  font-size: 1.5rem;
+  line-height: 1.1;
+}
+.panel-list-panel-footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+.promo-card__validity, .promo-card__published{
+  color: #a67e0e;
+  font-size: 0.8rem;
+}

@@ -5,17 +5,22 @@
 
 .header{
   margin-top: 5px;
-  margin-bottom: 5px;
+  margin-bottom: 1rem;
+
 }
 
 .header__wrapper{
   display: flex;
   justify-content: space-between;
+
 }
 .header__logo-wrapper{
-  max-width: 160px;
+  width: auto;
   display: flex;
   justify-content: space-between;
+  @include media-breakpoint-up(sm){
+    max-width: 160px;
+  }
 }
 
 .header__logo{
@@ -38,12 +43,12 @@
   justify-content: center;
 }
 .header__SiteName{
-  font-size: .9rem;
+  font-size: 1.5rem;
   font-weight: bold;
   color: $color-header-sitename;
 }
 .header__SiteSubname{
-  font-size: .65rem;
+
   font-weight: normal;
   line-height: 1.1;
   color: $color-primary-1;
@@ -57,10 +62,13 @@
 
 }
 .header__phones{
-  display: flex;
+  display: none;
   flex-direction: column;
   justify-content: center;
   align-items: flex-end;
+  @include media-breakpoint-up(sm){
+    display: flex;
+  }
 
 }
 .header__phone-wrapper{

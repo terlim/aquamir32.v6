@@ -32,6 +32,7 @@
 .icon__pumps:before,
 .icon__radiatory:before,
 .icon__refresh:before,
+.icon__remove:before,
 .icon__ruble:before,
 .icon__sale:before,
 .icon__search:before,
@@ -153,56 +154,60 @@
     content: '\E018';
 }
 
-.icon__ruble:before {
+.icon__remove:before {
     content: '\E019';
 }
 
-.icon__sale:before {
+.icon__ruble:before {
     content: '\E01A';
 }
 
-.icon__search:before {
+.icon__sale:before {
     content: '\E01B';
 }
 
-.icon__shield:before {
+.icon__search:before {
     content: '\E01C';
 }
 
-.icon__smesitely:before {
+.icon__shield:before {
     content: '\E01D';
 }
 
-.icon__star:before {
+.icon__smesitely:before {
     content: '\E01E';
 }
 
-.icon__still:before {
+.icon__star:before {
     content: '\E01F';
 }
 
-.icon__tapbuks:before {
+.icon__still:before {
     content: '\E020';
 }
 
-.icon__teploizolyciya:before {
+.icon__tapbuks:before {
     content: '\E021';
 }
 
-.icon__tools:before {
+.icon__teploizolyciya:before {
     content: '\E022';
 }
 
-.icon__tube:before {
+.icon__tools:before {
     content: '\E023';
 }
 
-.icon__water-filter:before {
+.icon__tube:before {
     content: '\E024';
 }
 
-.icon__water-heater:before {
+.icon__water-filter:before {
     content: '\E025';
+}
+
+.icon__water-heater:before {
+    content: '\E026';
 }
 
 /* Основной Цвет */
@@ -442,4 +447,9 @@
     padding-left: 5px;
     top: 2px;
     position: relative;
+}
+
+.icon__remove {
+    padding-right: 5px;
+    padding-left: 5px;
 }

@@ -9,6 +9,17 @@
 //= ../../node_modules/swiper/dist/js/swiper.js
 //= ../../node_modules/materialize-css/js/waves.js
 
+//minishop2 ajax
+$(document).ready(function() {
+    miniShop2.Callbacks.add('Order.add.ajax.done', 'msdiscount', function(res) {
+        var res = res.responseJSON;
+        if (typeof(res.data['coupon_code']) != 'undefined') {
+            miniShop2.Order.getcost();
+        };
+    });
+});
+
+
 $(document).ready(function () {
     $(function () {
         $('[data-toggle="tooltip"]').tooltip()

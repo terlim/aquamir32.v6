@@ -1,0 +1,167 @@
+@import "../../common.blocks/variables/variables";
+@import "../../common.blocks/mixins/mixins";
+//
+// Basic Bootstrap table
+//
+
+.table {
+    width: 100%;
+    margin-bottom: $spacer;
+    background-color: white; // Reset for nesting within parents with `background-color`.
+
+    th,
+    td {
+        padding: $table-cell-padding;
+        vertical-align: top;
+        border-top: $table-border-width solid $table-border-color;
+    }
+
+    thead th {
+        vertical-align: bottom;
+        border-bottom: (2 * $table-border-width) solid $table-border-color;
+    }
+
+    tbody + tbody {
+        border-top: (2 * $table-border-width) solid $table-border-color;
+    }
+
+    .table {
+        background-color: $body-bg;
+    }
+}
+
+
+
+// Border versions
+//
+// Add or remove borders all around the table and between all the columns.
+
+.table-bordered {
+    border: $table-border-width solid $table-border-color;
+
+    th,
+    td {
+        border: $table-border-width solid $table-border-color;
+    }
+
+    thead {
+        th,
+        td {
+            border-bottom-width: (2 * $table-border-width);
+        }
+    }
+}
+
+
+// Zebra-striping
+//
+// Default zebra-stripe styles (alternating gray and transparent backgrounds)
+
+.table-striped {
+    tbody tr:nth-of-type(#{$table-striped-order}) {
+        background-color: $table-accent-bg;
+    }
+}
+
+
+// Hover effect
+//
+// Placed here since it has to come after the potential zebra striping
+
+.table-hover {
+    tbody tr {
+        @include hover {
+            background-color: $table-hover-bg;
+        }
+    }
+}
+
+
+
+
+
+// Responsive tables
+//
+// Generate series of `.table-responsive-*` classes for configuring the screen
+// size of where your table will overflow.
+
+.table-responsive {
+    @each $breakpoint in map-keys($grid-breakpoints) {
+        $next: breakpoint-next($breakpoint, $grid-breakpoints);
+        $infix: breakpoint-infix($next, $grid-breakpoints);
+
+        &#{$infix} {
+            @include media-breakpoint-down($breakpoint) {
+                display: block;
+                width: 100%;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                -ms-overflow-style: -ms-autohiding-scrollbar; // See https://github.com/twbs/bootstrap/pull/10057
+
+                // Prevent double border on horizontal scroll due to use of `display: block;`
+                > .table-bordered {
+                    border: 0;
+                }
+            }
+        }
+    }
+}
+
+.table__header{
+    background: #5ca9dc;
+    color: white;
+}
+.table_title{
+  vertical-align: middle !important;
+}
+.table_count{
+  vertical-align: middle !important;
+  .form-group{
+    margin-bottom: 0;
+  }
+}
+
+.table_title__content{
+  vertical-align: middle !important;
+  font-size: .8rem;
+  line-height: 1.3;
+}
+.table_title__article{
+
+  font-size: .6rem;
+  line-height: 1.3;
+}
+.table_price{
+  width: 12%;
+  vertical-align: middle !important;
+  span{
+
+    font-size: 1rem;
+    line-height: 1.3;
+  }
+  i{
+    position: relative;
+    top: 2px;
+  }
+}
+.table_remove{
+  vertical-align: middle !important;
+}
+.input-sm{
+    width: 50%;
+    display: inline-block;
+}
+.btn-remove{
+
+  background: transparent;
+}
+
+.registration__notify{
+  margin: 1rem 0;
+  background: rgba(118,197,219,.23137);
+  padding: 1rem;
+  color: #7a7a78;
+  @include media-breakpoint-up(lg){
+    margin-top: 0;
+  }
+}

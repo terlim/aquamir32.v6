@@ -364,3 +364,46 @@ template {
         z-index: 900;
     }
 }
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+.registration__done {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
+}
+
+.registration_total {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.btn-order {
+    background-color: #fa4319;
+    color: #fff;
+    text-transform: uppercase;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    width: 100%;
+    -webkit-transition: all .15s ease-in-out;
+    -o-transition: all .15s ease-in-out;
+    transition: all .15s ease-in-out;
+}
+
+.ui-menu {
+    padding-top: 1.2rem !important;
+    z-index: 1500 !important;
+}

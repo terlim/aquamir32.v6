@@ -462,3 +462,28 @@ template {
     z-index: 900;
   }
 }
+.mb-0{
+  margin-bottom: 0 !important;
+}
+.registration__done {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.registration_total {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
+.btn-order {
+  background-color: #fa4319;
+  color: #fff;
+  text-transform: uppercase;
+  border-radius: 0;
+  width: 100%;
+  transition: all .15s ease-in-out;
+}
+.ui-menu {
+  padding-top: 1.2rem!important;
+  z-index: 1500!important;
+}

@@ -346,5 +346,6 @@ $alert-color-level:                 6 !default;
 @import "buttons";
 @import "tooltip";
 @import "tabs";
+@import "tables";
 
 @include _assert-ascending($container-max-widths, "$container-max-widths");

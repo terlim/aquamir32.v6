@@ -71,6 +71,7 @@
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    width: 100%;
 }
 
 .ctovar__properties-wrapper {
@@ -87,16 +88,17 @@
     -webkit-justify-content: flex-end;
     -ms-flex-pack: end;
     justify-content: flex-end;
-    -webkit-box-align: start;
-    -webkit-align-items: flex-start;
-    -ms-flex-align: start;
-    align-items: flex-start;
+    -webkit-box-align: end;
+    -webkit-align-items: flex-end;
+    -ms-flex-align: end;
+    align-items: flex-end;
     width: 50%;
     padding: .5rem;
+    text-align: right;
 }
 
 .ctovar__properties {
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 @media (min-width: 576px) {
@@ -128,7 +130,7 @@
 
 .ctovar__price {
     color: #fa4319;
-    font-size: 2rem;
+    font-size: 2.5rem;
 }
 
 @media (min-width: 576px) {
@@ -189,4 +191,5 @@
 
 .ctovar__button:hover {
     background: #0d4e78;
+    color: white;
 }

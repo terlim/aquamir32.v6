@@ -1,0 +1,140 @@
+<div id="msCart">
+    <div class="table-responsive">
+        <table class="table table-bordered table-hover">
+            <thead class="table__header">
+            <tr class="">
+
+                <th scope="col" >&nbsp;</th>
+                <th scope="col" >Наименование</th>
+                <th scope="col" >Количество</th>
+                <th scope="col" >Цена</th>
+                <th scope="col" >Удалить</th>
+            </tr>
+            </thead>
+            <tbody>
+
+            <tr id="fb27477ac2a28e4df5c4cc040fc80c47">
+
+                <td class="table_image">
+                    <img class="img-fluid table-img"
+                         src="/assets/images/products/125/small/zaglushka-12-pp-pro-aqua.jpg"
+                         alt="Заглушка ПП 40 PRO AQUA" title="Заглушка ПП 40 PRO AQUA">
+                </td>
+                <td class="table_title">
+                    <div class="table_title__content"><a
+                            href="/catalog/santexnika/truboprovodnyie-sistemyi/polipropilen/zaglushka-pp-40-pro-aqua">Заглушка
+                        ПП 40 PRO AQUA</a></div>
+                    <div class="table_title__article">код: 00-00001033</div>
+                </td>
+                <td class="table_count">
+                    <form method="post" class="ms2_form form-inline" role="form">
+                        <input type="hidden" name="key" value="fb27477ac2a28e4df5c4cc040fc80c47">
+                        <div class="form-group">
+                            <input type="number" name="count" value="1" class="input-sm form-control">
+                            <span class="hidden-xs">шт.</span>
+                            <button class="btn btn-default" type="submit" name="ms2_action" value="cart/change">
+                                <i class="glyphicon glyphicon-refresh"></i>
+                            </button>
+                        </div>
+                    </form>
+                </td>
+                <td class="table_price">
+                    <span>21000.5</span><i class="icon__ruble"></i>
+                </td>
+                <td class="table_remove">
+                    <form method="post" class="ms2_form">
+                        <input type="hidden" name="key" value="fb27477ac2a28e4df5c4cc040fc80c47">
+                        <button class="btn btn-remove " type="submit" name="ms2_action" value="cart/remove">
+
+                            <i class="icon__remove"></i>
+                        </button>
+                    </form>
+                </td>
+            </tr>
+
+
+            </tbody>
+            <tfooter>
+                <tr class="table__footer">
+
+                    <td colspan="3" class="table_total">ИТОГО:</td>
+
+                    <td  class="table_total">112212 руб</td>
+                    <td  class="table_total">&nbsp;</td>
+                </tr>
+
+            </tfooter>
+        </table>
+    </div>
+
+</div>
+<form class="form-horizontal ms2_form" id="msOrder" method="get">
+    <div class="row ">
+        <div class="col col-12"> <h4 class="registration__credentials">Данные получателя:</h4></div>
+        <div class="col col-12 col-lg-6">
+            <div class="registration__notify">
+                <p style="margin-bottom:0"><span style="color:#f9b705">Внимание!</span> При оформлении заказа необходимо обязательно указать e-mail адрес и Ваше имя.
+                    На указанный Вами адрес будет оправлена копия заказа, а так же этот адрес будет являтся логином
+                    для входа в личный кабинет. Так же желательно указать номер телефона, для более быстрой возможности нашим менеджерам
+                    связаться с Вами.</p>
+            </div>
+        </div>
+        <div class="col col-lg-6">
+            <div class="input-group">
+                <div class="input-group-prepend">
+                        <span class="input-group-text" id="email"><span class="required-star">*</span>
+                            Email                        </span>
+                </div>
+                <input type="text" class="form-control required error" aria-label="Email" aria-describedby="email" name="email" value="">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                        <span class="input-group-text" id="receiver"><span class="required-star">*</span>
+                            Получатель                        </span>
+                </div>
+                <input type="text" class="form-control required error" aria-label="Получатель" aria-describedby="receiver" name="receiver" value="">
+            </div>
+            <div class="input-group">
+                <div class="input-group-prepend">
+                        <span class="input-group-text" id="phone"><span class="required-star">*</span>
+                            Телефон                        </span>
+                </div>
+                <input type="text" class="form-control" aria-label="Телефон" aria-describedby="phone" name="phone" value="">
+            </div>
+
+            <div class="form-group">
+                <textarea name="comment" id="comment" placeholder="Комментарий" class="form-control"></textarea>
+
+            </div>
+            <div id="payments" style="display:none">
+                <div class="checkbox">
+                    <label class="payment input-parent" style="">
+                        <input type="radio" name="payment" value="1" id="payment_1" checked="">
+                        Оплата наличными                                                                                            </label>
+                </div>
+            </div>
+            <div class="" id="deliveries" style="display:none">
+                <div class="checkbox">
+                    <label class="delivery input-parent">
+                        <input type="radio" name="delivery" value="1" id="delivery_1" data-payments="[1]" checked="">
+                        Самовывоз                                                                                            </label>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <hr>
+    <div class="well">
+        <div class="col col-12 registration__done">
+            <div>
+                <div class="registration_total">Итого:
+                    <span id="ms2_order_cost">1 125</span>
+                    руб.                </div>
+                <button type="submit" name="ms2_action" value="order/submit" class="btn btn-order ms2_link waves-effect waves-yellow">
+                    Сделать заказ!                </button>
+            </div>
+        </div>
+    </div>
+</form>
+

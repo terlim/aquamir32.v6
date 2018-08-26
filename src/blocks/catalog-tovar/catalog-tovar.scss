@@ -39,18 +39,20 @@
 }
 .ctovar__body{
   display: flex;
+  width: 100%;
 }
 .ctovar__properties-wrapper{
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  align-items: flex-start;
+  align-items: flex-end;
   width: 50%;
   padding: .5rem;
+  text-align: right;
 
 }
 .ctovar__properties{
-  font-size: .8rem;
+  font-size: .9rem;
   @include media-breakpoint-up(sm){
     font-size: .7rem;
   }
@@ -71,7 +73,7 @@
 
 .ctovar__price{
   color: $color-tovar-price;
-  font-size: 2rem;
+  font-size: 2.5rem;
   @include media-breakpoint-up(sm){
     font-size: 1.6rem;
   }
