@@ -33,6 +33,7 @@
 .swiper-slide {
     height: auto !important;
     margin-top: 1px;
+    position: relative;
 }
 
 .swiper-lazy-preloader {
@@ -86,4 +87,19 @@
     -o-transition: all .15s ease-in-out;
     transition: all .15s ease-in-out;
     outline: 0;
+}
+
+.slider-caption {
+    position: absolute;
+    bottom: 0px;
+}
+
+.slider-caption .btn-caption {
+    padding: .5rem;
+    border: 1px solid white;
+    color: white;
+}
+
+.slider-caption .btn-caption:hover {
+    background-color: #ffffff4a;
 }
