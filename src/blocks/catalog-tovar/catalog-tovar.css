@@ -161,6 +161,40 @@
     color: #717070;
 }
 
+.ctovar__price_null {
+    color: #fa4319;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+}
+
+@media (min-width: 576px) {
+    .ctovar__price_null {
+        font-size: 1rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .ctovar__price_null {
+        font-size: .7rem;
+    }
+}
+
+@media (min-width: 992px) {
+    .ctovar__price_null {
+        font-size: .7rem;
+    }
+}
+
+@media (min-width: 1200px) {
+    .ctovar__price_null {
+        font-size: .7rem;
+    }
+}
+
+.ctovar__price_null .icon__ruble {
+    color: #717070;
+}
+
 .ctovar__brand {
     color: #a67e0e;
 }

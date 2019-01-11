@@ -29,3 +29,7 @@
 .footer__link:hover {
     color: #fad31a;
 }
+
+.footer__organization {
+    font-size: .7rem;
+}

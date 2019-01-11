@@ -91,6 +91,27 @@
     color: $color-font;
   }
 }
+.ctovar__price_null{
+  color: $color-tovar-price;
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  @include media-breakpoint-up(sm){
+    font-size: 1rem;
+  }
+  @include media-breakpoint-up(md){
+    font-size: .7rem;
+  }
+  @include media-breakpoint-up(lg){
+    font-size: .7rem;
+  }
+  @include media-breakpoint-up(xl){
+    font-size: .7rem;
+  }
+
+  .icon__ruble{
+    color: $color-font;
+  }
+}
 .ctovar__brand{
   color: $color-secondary-a-2;
 
