@@ -103,3 +103,17 @@
 .slider-caption .btn-caption:hover {
     background-color: #ffffff4a;
 }
+
+.topSales {
+    margin-top: 1rem;
+}
+
+#swiper-promo {
+    min-height: 173px;
+}
+
+@media (min-width: 768px) {
+    #swiper-promo {
+        min-height: 274px;
+    }
+}

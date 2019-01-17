@@ -13,7 +13,7 @@
     padding: 1rem;
     font-size: 1rem;
     margin-top: 2rem;
-    margin-bottom: 0 !important;
+    margin-bottom: 2rem;
     margin-right: -15px !important;
     margin-left: -15px !important;
 }
@@ -40,5 +40,6 @@
     .footer {
         margin-right: 0 !important;
         margin-left: 0 !important;
+        margin-bottom: 0 !important;
     }
 }
