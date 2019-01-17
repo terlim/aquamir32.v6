@@ -117,3 +117,9 @@
         min-height: 274px;
     }
 }
+
+@media (min-width: 992px) {
+    #swiper-promo {
+        min-height: 327px;
+    }
+}

@@ -277,3 +277,32 @@
   padding-right: $icon-padding/2;
   padding-left: $icon-padding/2;
 }
+.icon__users{
+  @extend %icon-users;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+}
+.icon__vk{
+  @extend %icon-vk;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+  top: 5px;
+  font-size: 1.5rem;
+  position: relative;
+}
+.icon__list{
+  @extend %icon-list;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+  top: 5px;
+  font-size: 1.5rem;
+  position: relative;
+}
+.icon-columns{
+  @extend %icon-columns;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+  top: 3px;
+  font-size: 1.25rem;
+  position: relative;
+}

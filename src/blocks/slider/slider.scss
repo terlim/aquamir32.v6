@@ -90,4 +90,7 @@
   @include media-breakpoint-up(md){
     min-height: 274px;
   }
+  @include media-breakpoint-up(lg){
+    min-height: 327px;
+  }
 }

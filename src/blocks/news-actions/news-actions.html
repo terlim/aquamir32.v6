@@ -1,0 +1,97 @@
+<div class=" msearch2" id="mse2_mfilter">
+    <h1>Новости и акции</h1>
+
+    <form action="news" method="post" id="mse2_filters">
+        <div class="news-actions">
+            <fieldset id="mse2_resource|parent" class="fieldset">
+                <label for="mse2_resource|parent_0" class="filter__label_news">
+                    <input type="checkbox" name="resource|parent" id="mse2_resource|parent_0" value="903" checked="" class=""> Акции <sup style="display: none;">5</sup>
+                </label>
+                <label for="mse2_resource|parent_1" class="filter__label_news">
+                    <input type="checkbox" name="resource|parent" id="mse2_resource|parent_1" value="1118" checked="" class=""> Новости <sup style="display: none;">5</sup>
+                </label>
+            </fieldset>
+            <div class="filter__limit">
+                <div class="input-group mb-0 ">
+                    <div class="input-group-prepend">
+                        <label class="input-group-text" for="mse2_limit">Показывать по</label>
+                    </div>
+                    <select name="mse_limit" id="mse2_limit" class="form-control" aria-describedby="sizing-addon3">
+                        <option value="10" selected="">10</option>
+                        <option value="25">25</option>
+                        <option value="50">50</option>
+                        <option value="100">100</option>
+                    </select>
+                </div>
+            </div>
+
+            <div id="mse2_sort" class="">
+                <a href="#" data-sort="resource|publishedon" data-dir="desc" data-default="desc" class="sort active">Дата публикации <span></span></a>
+            </div>
+            <div id="mse2_tpl" class="">
+                <a href="#" data-tpl="0" class=""><i class="icon__list"></i></a> /
+                <a href="#" data-tpl="1" class="active"><i class="icon-columns"></i></a>
+            </div>
+
+        </div>
+    </form>
+
+    <aside class="row" id="mse2_results" style="opacity: 1;">
+        <div class="col col-12">
+            <div class="promo-card__wrapper">
+                <div class="promo-card">
+                    <div class="promo-card__head">
+                        <a href="promo/poluchi-proekt-otopleniya">
+                            <h2 class="promo-card__title">Получи проект отопления и тепловой расчет бесплатно!</h2>
+                        </a>
+
+                    </div>
+                    <div class="promo-card__panel-body">
+                        Если у вас есть участок или вы строите дом, приносите его поэтажный план и наши опытные инженеры
+                        бесплатно помогут спроектировать систему отопления.
+                    </div>
+                    <div class="panel-list-panel-footer ">
+                        <div>
+
+                            <div class="promo-card__published">Опубликовано: 31.03.2018г.</div>
+                        </div>
+
+                        <a href="promo/poluchi-proekt-otopleniya" class="btn ctovar__button waves-effect waves-yellow">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col col-12">
+            <div class="promo-card__wrapper">
+                <div class="promo-card">
+                    <div class="promo-card__head">
+                        <a href="promo/speczialnyie-predlozheniya-dlya-montazhnikov">
+                            <h2 class="promo-card__title">Специальные предложения для монтажников!</h2>
+                        </a>
+
+                    </div>
+                    <div class="promo-card__panel-body">
+                        Уважаемые коллеги! Мы понимаем, как важно для вас удобство работы с нами.
+                        Именно поэтому мы предлагаем вам следующие условия сотрудничества:
+
+                    </div>
+                    <div class="panel-list-panel-footer ">
+                        <div>
+
+                            <div class="promo-card__published">Опубликовано: 31.03.2018г.</div>
+                        </div>
+
+                        <a href="promo/speczialnyie-predlozheniya-dlya-montazhnikov"
+                           class="btn ctovar__button waves-effect waves-yellow">Подробнее</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <div class="clearfix"></div>
+    <div class="d-flex mse2_pagination">
+        <div class="pagination">
+            <ul class="pagination"></ul>
+        </div>
+    </div>
+</div>

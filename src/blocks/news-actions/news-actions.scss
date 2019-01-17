@@ -1,0 +1,42 @@
+@import "../../common.blocks/variables/variables";
+@import "../../common.blocks/mixins/mixins";
+
+.news-actions{
+  background-color: #dbe5ec;
+  padding: .5rem;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  align-items: center;
+}
+
+.filter__label_news {
+  font-size: 1rem;
+  display: inline;
+  padding: 0 .2rem 0 .2rem;
+}
+.sort-date{
+  &:hover{
+    cursor: pointer !important;
+  }
+}
+.filter__limit{
+  margin-bottom: 1rem;
+}
+.fieldset{
+  margin-bottom: 1rem;
+}
+
+@include media-breakpoint-up(md){
+  .news-actions{
+    flex-direction: row;
+  }
+  .filter__limit{
+    margin-bottom: 0;
+  }
+  .fieldset{
+    margin-bottom: 0;
+  }
+}

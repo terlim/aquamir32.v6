@@ -7,6 +7,7 @@ $icon_font_name:"myiconfont";
 	url('../fonts/icons/myiconfont.ttf') format('truetype'),
 	url('../fonts/icons/myiconfont.svg#myiconfont') format('svg');
 }
+%icon-columns,
 %icon-glyphicons-auricular-phone-symbol-in-a-circle,
 %icon-glyphicons-back,
 %icon-glyphicons-catalog,
@@ -45,6 +46,9 @@ $icon_font_name:"myiconfont";
 %icon-glyphicons-tube,
 %icon-glyphicons-water-filter,
 %icon-glyphicons-water-heater,
+%icon-list,
+%icon-users,
+%icon-vk,
 %last_selector {
 		&:before {
 			font-family:$icon_font_name;
@@ -86,117 +90,129 @@ $icon_font_name:"myiconfont";
 	}
 }
 
-%icon-glyphicons-auricular-phone-symbol-in-a-circle:before {
+%icon-columns:before {
 	content:'\E001';
 }
-%icon-glyphicons-back:before {
+%icon-glyphicons-auricular-phone-symbol-in-a-circle:before {
 	content:'\E002';
 }
-%icon-glyphicons-catalog:before {
+%icon-glyphicons-back:before {
 	content:'\E003';
 }
-%icon-glyphicons-checklist:before {
+%icon-glyphicons-catalog:before {
 	content:'\E004';
 }
-%icon-glyphicons-clock:before {
+%icon-glyphicons-checklist:before {
 	content:'\E005';
 }
-%icon-glyphicons-collector:before {
+%icon-glyphicons-clock:before {
 	content:'\E006';
 }
-%icon-glyphicons-commerce:before {
+%icon-glyphicons-collector:before {
 	content:'\E007';
 }
-%icon-glyphicons-credit-card:before {
+%icon-glyphicons-commerce:before {
 	content:'\E008';
 }
-%icon-glyphicons-garden:before {
+%icon-glyphicons-credit-card:before {
 	content:'\E009';
 }
-%icon-glyphicons-kanalizaciya:before {
+%icon-glyphicons-garden:before {
 	content:'\E00A';
 }
-%icon-glyphicons-komplekt:before {
+%icon-glyphicons-kanalizaciya:before {
 	content:'\E00B';
 }
-%icon-glyphicons-latun:before {
+%icon-glyphicons-komplekt:before {
 	content:'\E00C';
 }
-%icon-glyphicons-light:before {
+%icon-glyphicons-latun:before {
 	content:'\E00D';
 }
-%icon-glyphicons-map-marker:before {
+%icon-glyphicons-light:before {
 	content:'\E00E';
 }
-%icon-glyphicons-matall:before {
+%icon-glyphicons-map-marker:before {
 	content:'\E00F';
 }
-%icon-glyphicons-message:before {
+%icon-glyphicons-matall:before {
 	content:'\E010';
 }
-%icon-glyphicons-meters:before {
+%icon-glyphicons-message:before {
 	content:'\E011';
 }
-%icon-glyphicons-podvodka:before {
+%icon-glyphicons-meters:before {
 	content:'\E012';
 }
-%icon-glyphicons-polotencesushiteli:before {
+%icon-glyphicons-podvodka:before {
 	content:'\E013';
 }
-%icon-glyphicons-polyetilen:before {
+%icon-glyphicons-polotencesushiteli:before {
 	content:'\E014';
 }
-%icon-glyphicons-polypropilen:before {
+%icon-glyphicons-polyetilen:before {
 	content:'\E015';
 }
-%icon-glyphicons-pump:before {
+%icon-glyphicons-polypropilen:before {
 	content:'\E016';
 }
-%icon-glyphicons-radiatoryi:before {
+%icon-glyphicons-pump:before {
 	content:'\E017';
 }
-%icon-glyphicons-refresh:before {
+%icon-glyphicons-radiatoryi:before {
 	content:'\E018';
 }
-%icon-glyphicons-remove:before {
+%icon-glyphicons-refresh:before {
 	content:'\E019';
 }
-%icon-glyphicons-ruble:before {
+%icon-glyphicons-remove:before {
 	content:'\E01A';
 }
-%icon-glyphicons-sale:before {
+%icon-glyphicons-ruble:before {
 	content:'\E01B';
 }
-%icon-glyphicons-search:before {
+%icon-glyphicons-sale:before {
 	content:'\E01C';
 }
-%icon-glyphicons-shield:before {
+%icon-glyphicons-search:before {
 	content:'\E01D';
 }
-%icon-glyphicons-smesiteli:before {
+%icon-glyphicons-shield:before {
 	content:'\E01E';
 }
-%icon-glyphicons-star:before {
+%icon-glyphicons-smesiteli:before {
 	content:'\E01F';
 }
-%icon-glyphicons-still:before {
+%icon-glyphicons-star:before {
 	content:'\E020';
 }
-%icon-glyphicons-tapbuks:before {
+%icon-glyphicons-still:before {
 	content:'\E021';
 }
-%icon-glyphicons-teploizolyaciya:before {
+%icon-glyphicons-tapbuks:before {
 	content:'\E022';
 }
-%icon-glyphicons-tools:before {
+%icon-glyphicons-teploizolyaciya:before {
 	content:'\E023';
 }
-%icon-glyphicons-tube:before {
+%icon-glyphicons-tools:before {
 	content:'\E024';
 }
-%icon-glyphicons-water-filter:before {
+%icon-glyphicons-tube:before {
 	content:'\E025';
 }
-%icon-glyphicons-water-heater:before {
+%icon-glyphicons-water-filter:before {
 	content:'\E026';
 }
+%icon-glyphicons-water-heater:before {
+	content:'\E027';
+}
+%icon-list:before {
+	content:'\E028';
+}
+%icon-users:before {
+	content:'\E029';
+}
+%icon-vk:before {
+	content:'\E02A';
+}
