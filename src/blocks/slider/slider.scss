@@ -69,7 +69,14 @@
 
 .slider-caption{
   position: absolute;
-  bottom: 0px;
+  top: 60%;
+  right: 10%;
+  @include media-breakpoint-up(md){
+     top: 80%;
+     right: 10%;
+
+  }
+}
 
   .btn-caption{
     padding: .5rem;
@@ -81,7 +88,7 @@
 
     }
   }
-}
+
 .topSales{
   margin-top: 1rem;
 }

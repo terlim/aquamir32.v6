@@ -1,0 +1,11 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет B */
+.promo-card-alt {
+    -webkit-box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 5px 10px -5px rgba(0, 0, 0, 0.4);
+}
+
+.promo-card-alt-prop-wrapper {
+    padding: 1rem;
+}

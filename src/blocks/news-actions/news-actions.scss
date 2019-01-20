@@ -28,7 +28,9 @@
 .fieldset{
   margin-bottom: 1rem;
 }
-
+.panel-list-prop{
+  align-self: flex-end;
+}
 @include media-breakpoint-up(md){
   .news-actions{
     flex-direction: row;

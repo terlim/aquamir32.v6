@@ -45,6 +45,12 @@
     margin-bottom: 1rem;
 }
 
+.panel-list-prop {
+    -webkit-align-self: flex-end;
+    -ms-flex-item-align: end;
+    align-self: flex-end;
+}
+
 @media (min-width: 768px) {
     .news-actions {
         -webkit-box-orient: horizontal;

@@ -91,16 +91,24 @@
 
 .slider-caption {
     position: absolute;
-    bottom: 0px;
+    top: 60%;
+    right: 10%;
 }
 
-.slider-caption .btn-caption {
+@media (min-width: 768px) {
+    .slider-caption {
+        top: 80%;
+        right: 10%;
+    }
+}
+
+.btn-caption {
     padding: .5rem;
     border: 1px solid white;
     color: white;
 }
 
-.slider-caption .btn-caption:hover {
+.btn-caption:hover {
     background-color: #ffffff4a;
 }
 
