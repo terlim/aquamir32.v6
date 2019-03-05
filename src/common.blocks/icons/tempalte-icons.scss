@@ -306,3 +306,8 @@
   font-size: 1.25rem;
   position: relative;
 }
+.icon-home{
+  @extend %icon-home;
+  padding-right: $icon-padding/2;
+  padding-left: $icon-padding/2;
+}

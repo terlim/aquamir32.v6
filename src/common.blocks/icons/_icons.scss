@@ -46,6 +46,7 @@ $icon_font_name:"myiconfont";
 %icon-glyphicons-tube,
 %icon-glyphicons-water-filter,
 %icon-glyphicons-water-heater,
+%icon-home,
 %icon-list,
 %icon-users,
 %icon-vk,
@@ -207,12 +208,15 @@ $icon_font_name:"myiconfont";
 %icon-glyphicons-water-heater:before {
 	content:'\E027';
 }
-%icon-list:before {
+%icon-home:before {
 	content:'\E028';
 }
-%icon-users:before {
+%icon-list:before {
 	content:'\E029';
 }
-%icon-vk:before {
+%icon-users:before {
 	content:'\E02A';
-}
+}
+%icon-vk:before {
+	content:'\E02B';
+}

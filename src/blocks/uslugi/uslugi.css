@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* Основной Цвет */
+/* Вторичный Цвет B */
+@font-face {
+    font-family: "myiconfont";
+  src: url("../fonts/icons/myiconfont.eot");
+  src: url("../fonts/icons/myiconfont.eot?#iefix") format("eot"), url("../fonts/icons/myiconfont.woff") format("woff"), url("../fonts/icons/myiconfont.ttf") format("truetype"), url("../fonts/icons/myiconfont.svg#myiconfont") format("svg");
+}
+
+.card-uslugi__title {
+    background-color: #5ca9dc;
+    color: white;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    padding: .5rem;
+    height: 100%;
+    font-size: 1.2rem;
+    -webkit-align-content: center;
+    -ms-flex-line-pack: center;
+    align-content: center;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+
+.uslugi-text-wrap {
+    padding: .5rem;
+}
