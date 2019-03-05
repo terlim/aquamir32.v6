@@ -36,3 +36,6 @@
 @import "../blocks/footer/footer.css";
 @import "../blocks/nav-bottom/nav-bottom.css";
 
+.aside_left_block{
+    margin-bottom: 1rem;
+}
